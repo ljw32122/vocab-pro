@@ -1,0 +1,79 @@
+[
+  {
+    "word": "algorithm",
+    "phonetic": "/ˈælɡərɪðəm/",
+    "homophonic": "阿尔戈里特姆",
+    "tags": ["CET6", "TOEFL", "Computer", "MachineLearning"],
+    "definition": "<strong>n.</strong> 算法，计算程序<br>搭配：<strong>optimize an algorithm</strong>",
+    "etymology": "源自9世纪波斯数学家",
+    "synonyms": ["procedure", "formula"],
+    "sentence_en": "The recommendation algorithm analyzes user behavior.",
+    "sentence_zh": "推荐算法会分析用户的行为。"
+  },
+  {
+    "word": "repository",
+    "phonetic": "/rɪˈpɑːzətɔːri/",
+    "homophonic": "瑞波托里",
+    "tags": ["Computer", "CET6"],
+    "definition": "<strong>n.</strong> 仓库，知识库，代码库<br>搭配：<strong>git repository</strong>",
+    "etymology": "<strong>re-</strong> + <strong>posit</strong>(放置)",
+    "synonyms": ["archive", "depository"],
+    "sentence_en": "Push your code to the remote repository.",
+    "sentence_zh": "把你的代码推送到远程代码库。"
+  },
+  {
+    "word": "deployment",
+    "phonetic": "/dɪˈplɔɪmənt/",
+    "homophonic": "迪普洛伊曼特",
+    "tags": ["Computer", "CET6", "TOEFL"],
+    "definition": "<strong>n.</strong> 部署，调度<br>搭配：<strong>automated deployment</strong>",
+    "etymology": "<strong>de-</strong>(向下/展开) + <strong>ploy</strong>(折叠)",
+    "synonyms": ["implementation", "stationing"],
+    "sentence_en": "Continuous deployment accelerates software delivery.",
+    "sentence_zh": "持续部署加速了软件交付。"
+  },
+  {
+    "word": "overfitting",
+    "phonetic": "/ˈoʊvərfɪtɪŋ/",
+    "homophonic": "欧弗菲婷",
+    "tags": ["MachineLearning", "Computer"],
+    "definition": "<strong>n.</strong> 过拟合（机器学习模型对训练数据学得太细而泛化能力差）<br>搭配：<strong>prevent overfitting</strong>",
+    "etymology": "<strong>over-</strong>(过度) + <strong>fit</strong>(拟合)",
+    "synonyms": ["curve fitting excess"],
+    "sentence_en": "Regularization techniques help prevent overfitting.",
+    "sentence_zh": "正则化技术有助于防止过拟合。"
+  },
+  {
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "homophonic": "埃班登",
+    "tags": ["CET4", "CET6", "TOEFL"],
+    "definition": "<strong>v.</strong> 放弃，抛弃<br>搭配：<strong>abandon a rigid plan</strong>",
+    "etymology": "<strong>a-</strong> + <strong>bandon</strong>(控制)",
+    "synonyms": ["desert", "forsake"],
+    "sentence_en": "The crew had to abandon the sinking ship.",
+    "sentence_zh": "船员们不得不弃船。"
+  },
+  {
+    "word": "comprehensive",
+    "phonetic": "/ˌkɑːmprɪˈhensɪv/",
+    "homophonic": "康普瑞海瑟夫",
+    "tags": ["CET4", "CET6", "TOEFL"],
+    "definition": "<strong>adj.</strong> 全面的，综合的<br>搭配：<strong>comprehensive reform</strong>",
+    "etymology": "<strong>com-</strong> + <strong>prehens</strong>(抓)",
+    "synonyms": ["thorough", "extensive"],
+    "sentence_en": "The report offers a comprehensive analysis.",
+    "sentence_zh": "该报告提供了全面的分析。"
+  },
+  {
+    "word": "ubiquitous",
+    "phonetic": "/juːˈbɪkwɪtəs/",
+    "homophonic": "尤碧奎特斯",
+    "tags": ["TOEFL", "CET6", "Computer"],
+    "definition": "<strong>adj.</strong> 无处不在的，普遍存在的<br>搭配：<strong>ubiquitous computing</strong>",
+    "etymology": "<strong>ubi</strong>(到处) + <strong>ous</strong>",
+    "synonyms": ["omnipresent", "pervasive"],
+    "sentence_en": "Smartphones have become ubiquitous in modern life.",
+    "sentence_zh": "智能手机在现代生活中已无处不在。"
+  }
+]
