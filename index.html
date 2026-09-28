@@ -169,15 +169,35 @@
     var isShuffleMode = false;
     var isSpellMode = false;
 
-    // 动态异步加载外部 words.json 词库
+    // 动态异步加载外部 words.json 词库（具备自动降级重试机制）
     async function loadWordDatabase() {
-      try {
-        var response = await fetch('words.json?' + Date.now());
-        wordDatabase = await response.json();
-        currentList = [...wordDatabase];
-        renderWordList();
-        loadWord(0);
-      } catch (e) {
+      var tryUrls = [
+        './words.json',
+        'words.json',
+        'https://raw.githubusercontent.com/ljw32122/vocab-pro/main/words.json'
+      ];
+
+      var success = false;
+
+      for (var i = 0; i < tryUrls.length; i++) {
+        var url = tryUrls[i];
+        try {
+          var response = await fetch(url, { cache: 'no-cache' });
+          if (!response.ok) {
+            throw new Error('HTTP 状态码错误: ' + response.status);
+          }
+          wordDatabase = await response.json();
+          currentList = [...wordDatabase];
+          renderWordList();
+          loadWord(0);
+          success = true;
+          break;
+        } catch (e) {
+          console.warn('尝试从 ' + url + ' 加载失败，正尝试备用地址...', e);
+        }
+      }
+
+      if (!success) {
         document.getElementById('wordListContainer').innerHTML = '<div class="list-empty">词库加载失败，请检查 words.json</div>';
       }
     }
@@ -253,25 +273,27 @@
       var card = document.getElementById('mainCard');
       card.classList.remove('is-flipped');
 
-      document.getElementById('show-word').innerText = currentWordData.word;
-      document.getElementById('show-phonetic').innerText = currentWordData.phonetic;
-      document.getElementById('show-homophonic').innerText = currentWordData.homophonic;
+      document.getElementById('show-word').innerText = currentWordData.word || '';
+      document.getElementById('show-phonetic').innerText = currentWordData.phonetic || '';
+      document.getElementById('show-homophonic').innerText = currentWordData.homophonic || '';
 
-      document.getElementById('show-back-word').innerText = currentWordData.word + " " + currentWordData.phonetic;
-      document.getElementById('show-definition').innerHTML = currentWordData.definition;
-      document.getElementById('show-etymology').innerHTML = currentWordData.etymology;
-      document.getElementById('show-sentence-en').innerText = currentWordData.sentence_en;
-      document.getElementById('show-sentence-zh').innerText = currentWordData.sentence_zh;
+      document.getElementById('show-back-word').innerText = (currentWordData.word || '') + " " + (currentWordData.phonetic || '');
+      document.getElementById('show-definition').innerHTML = currentWordData.definition || '';
+      document.getElementById('show-etymology').innerHTML = currentWordData.etymology || '';
+      document.getElementById('show-sentence-en').innerText = currentWordData.sentence_en || '';
+      document.getElementById('show-sentence-zh').innerText = currentWordData.sentence_zh || '';
 
       var synContainer = document.getElementById('show-synonyms');
       synContainer.innerHTML = '';
-      currentWordData.synonyms.forEach(syn => {
-        var btn = document.createElement('button');
-        btn.className = 'click-voice-btn';
-        btn.innerText = syn;
-        btn.onclick = function() { window.speakText(syn, 0.9); };
-        synContainer.appendChild(btn);
-      });
+      if (Array.isArray(currentWordData.synonyms)) {
+        currentWordData.synonyms.forEach(syn => {
+          var btn = document.createElement('button');
+          btn.className = 'click-voice-btn';
+          btn.innerText = syn;
+          btn.onclick = function() { window.speakText(syn, 0.9); };
+          synContainer.appendChild(btn);
+        });
+      }
 
       if (isSpellMode) {
         document.getElementById('spellInput').value = '';
