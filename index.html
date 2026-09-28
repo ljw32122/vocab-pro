@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>四六级 & 托福全能背词王 (智能记忆Pro版)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f4f6f9; color: #1c1c1e; min-height: 100vh; display: flex; flex-direction: column; }
+    
+    header { background: #ffffff; padding: 10px 16px; border-bottom: 1px solid #e5e5ea; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.02); }
+    .filter-row { display: flex; gap: 8px; margin-bottom: 8px; overflow-x: auto; padding-bottom: 2px; }
+    .filter-btn { background: #f2f2f7; color: #3a3a3c; border: none; padding: 5px 12px; border-radius: 16px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s; }
+    .filter-btn.active { background: #007aff; color: #ffffff; }
+    
+    .toolbar-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+    .search-box { flex: 1; padding: 6px 10px; border: none; background: #e5e5ea; border-radius: 8px; font-size: 13px; outline: none; }
+    .tool-action-btn { background: #e5e5ea; border: none; padding: 6px 10px; border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; color: #3a3a3c; white-space: nowrap; }
+    .tool-action-btn.active-mode { background: #34c759; color: white; }
+
+    .main-container { display: flex; flex: 1; height: calc(100vh - 110px); overflow: hidden; }
+    
+    .word-list { width: 140px; background: #ffffff; border-right: 1px solid #e5e5ea; overflow-y: auto; flex-shrink: 0; }
+    .word-item { padding: 12px; border-bottom: 1px solid #f2f2f7; cursor: pointer; font-size: 13px; font-weight: 500; color: #2c2c2e; transition: background 0.2s; display: flex; justify-content: space-between; align-items: center; }
+    .word-item:hover, .word-item.active { background: #e5e5ea; color: #007aff; font-weight: bold; border-left: 4px solid #007aff; }
+    .tag-dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
+    .dot-forget { background: #ff3b30; }
+    .dot-vague { background: #ff9500; }
+    .dot-remember { background: #34c759; }
+    .list-empty { padding: 20px; font-size: 12px; color: #8e8e93; text-align: center; }
+    
+    .learning-zone { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 12px; overflow-y: auto; position: relative; }
+    
+    .card-container { width: 100%; max-width: 320px; height: 460px; perspective: 1000px; }
+    .word-card { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.4s; box-shadow: 0 6px 18px rgba(0,0,0,0.08); border-radius: 12px; }
+    .word-card.is-flipped { transform: rotateY(180deg); }
+    .card-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; border-radius: 12px; background: white; padding: 16px; display: flex; flex-direction: column; box-sizing: border-box; border: 1px solid #e5e5ea; }
+    .card-back { transform: rotateY(180deg); background: #fafafa; overflow-y: auto; }
+    
+    .flip-btn { background: #007aff; color: white; border: none; padding: 6px 10px; border-radius: 6px; cursor: pointer; font-size: 12px; margin-bottom: 10px; width: 100%; font-weight: bold; }
+    .word-title { font-size: 28px; font-weight: bold; margin: 2px 0; color: #1c1c1e; }
+    
+    .audio-group { margin: 6px 0 10px 0; display: flex; gap: 6px; }
+    .audio-btn { border: 1px solid #007aff; padding: 4px 8px; border-radius: 10px; cursor: pointer; font-size: 11px; font-weight: 500; background: white; color: #007aff; }
+    .audio-btn.slow { border-color: #ea580c; color: #ea580c; }
+    
+    .section { margin-top: 10px; border-top: 1px solid #e5e5ea; padding-top: 6px; }
+    .section-title { font-size: 10px; color: #8e8e93; font-weight: bold; text-transform: uppercase; }
+    .click-voice-btn { background: #e5e5ea; border: none; padding: 4px 6px; border-radius: 4px; margin: 3px 3px 0 0; cursor: pointer; font-size: 11px; font-weight: 500; }
+    .sentence-box { background: #fff; border: 1px solid #e5e5ea; padding: 6px; border-radius: 6px; margin-top: 3px; cursor: pointer; text-align: left; }
+    .sentence-box:hover { background: #f2f2f7; }
+    .tips-badge { font-size: 9px; color: #aeaeab; margin-top: 1px; display: block; }
+    
+    .spell-input-box { margin-top: 15px; display: none; flex-direction: column; gap: 8px; }
+    .spell-input { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; text-align: center; outline: none; }
+    .spell-tip { font-size: 12px; color: #666; text-align: center; }
+
+    .memory-actions { margin-top: 12px; display: flex; gap: 6px; width: 100%; max-width: 320px; }
+    .mem-btn { flex: 1; padding: 8px; border: none; border-radius: 8px; font-size: 11px; font-weight: bold; cursor: pointer; color: white; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.2; }
+    .mem-btn.forget { background: #ff3b30; } 
+    .mem-btn.vague { background: #ff9500; }  
+    .mem-btn.remember { background: #34c759; } 
+    .mem-sub { font-size: 9px; opacity: 0.85; font-weight: normal; margin-top: 2px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="filter-row">
+      <button class="filter-btn active" id="btn-ALL" onclick="filterCategory('ALL')">全部单词</button>
+      <button class="filter-btn" id="btn-CET4" onclick="filterCategory('CET4')">CET-4 四级</button>
+      <button class="filter-btn" id="btn-CET6" onclick="filterCategory('CET6')">CET-6 六级</button>
+      <button class="filter-btn" id="btn-TOEFL" onclick="filterCategory('TOEFL')">TOEFL 托福</button>
+      <button class="filter-btn" id="btn-REVIEW" onclick="filterCategory('REVIEW')">⏳ 艾宾浩斯待复习</button>
+    </div>
+    <div class="toolbar-row">
+      <input type="text" class="search-box" id="searchInput" placeholder="🔍 模糊查找支持跳跃输入 (如abd)..." oninput="handleSearch()">
+      <button class="tool-action-btn" id="shuffleBtn" onclick="toggleShuffle()">🔀 乱序</button>
+      <button class="tool-action-btn" id="spellModeBtn" onclick="toggleSpellMode()">✍️ 默写</button>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div class="word-list" id="wordListContainer"></div>
+    
+    <div class="learning-zone" id="learningZone">
+      <div class="card-container">
+        <div class="word-card" id="mainCard">
+          
+          <div class="card-face">
+            <button class="flip-btn" onclick="toggleFlip()">查看考点/词根 (翻面) 🔄</button>
+            <div id="show-word" class="word-title">加载中...</div>
+            <div id="show-phonetic" style="color: #666; font-size: 13px;"></div>
+            
+            <div class="audio-group">
+              <button class="audio-btn" onclick="if(currentWordData) window.speakText(currentWordData.word, 0.9)">🔊 正常速</button>
+              <button class="audio-btn slow" onclick="if(currentWordData) window.speakText(currentWordData.word, 0.6)">🐢 慢速听</button>
+            </div>
+
+            <div class="spell-input-box" id="spellInputBox">
+              <div class="spell-tip">请根据释义/发音盲打拼写：</div>
+              <input type="text" class="spell-input" id="spellInput" placeholder="输入英文按回车校验..." onkeydown="checkSpelling(event)">
+            </div>
+            
+            <div id="normalCardContent" style="margin-top:auto; background:#fff7ed; padding:8px; border-radius:6px; border-left:4px solid #f97316; color:#7c2d12; font-size:13px;">
+              <strong>📢 汉语谐音：</strong><span id="show-homophonic"></span>
+            </div>
+          </div>
+
+          <div class="card-face card-back">
+            <button class="flip-btn" onclick="toggleFlip()">返回正面 🔄</button>
+            <div id="show-back-word" style="font-size:16px; font-weight:bold; color:#007aff;"></div>
+            
+            <div class="section">
+              <div class="section-title">📝 词性释义 & 高频搭配 (Chunk)</div>
+              <div id="show-definition" style="font-size:13px; margin-top:2px; line-height:1.3;"></div>
+            </div>
+
+            <div class="section">
+              <div class="section-title">🌱 词根词缀记忆</div>
+              <div id="show-etymology" style="font-size:12px; color:#333; margin-top:2px; line-height:1.3;"></div>
+            </div>
+
+            <div class="section">
+              <div class="section-title">🔄 考点同义替换</div>
+              <span class="tips-badge">点击同义词可发音</span>
+              <div id="show-synonyms" style="margin-top:2px;"></div>
+            </div>
+
+            <div class="section">
+              <div class="section-title">🎯 真题语境长难句</div>
+              <div class="sentence-box" onclick="if(currentWordData) window.speakToggle(currentWordData.sentence_en)">
+                <div id="show-sentence-en" style="font-size:12px; font-weight:500; color:#000; line-height:1.3;"></div>
+                <div id="show-sentence-zh" style="font-size:11px; color:#8e8e93; margin-top:2px;"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="memory-actions">
+        <button class="mem-btn forget" onclick="handleFeedback('forget')">
+          ❌ 没记住
+          <span class="mem-sub">重置1天内复习</span>
+        </button>
+        <button class="mem-btn vague" onclick="handleFeedback('vague')">
+          🤔 模糊
+          <span class="mem-sub">2天后复习</span>
+        </button>
+        <button class="mem-btn remember" onclick="handleFeedback('remember')">
+          ✅ 太简单
+          <span class="mem-sub">4-7天后复习</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 四六级 & 托福核心扩充词库
+    var wordDatabase = [
+      { word: "abandon", phonetic: "/əˈbændən/", homophonic: "埃班登", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>v.</strong> 放弃，抛弃<br>搭配：<strong>abandon a rigid plan</strong>", etymology: "<strong>a-</strong> + <strong>bandon</strong>(控制)", synonyms: ["desert", "forsake"], sentence_en: "The crew had to abandon the sinking ship.", sentence_zh: "船员们不得不弃船。" },
+      { word: "abolish", phonetic: "/əˈbɑːlɪʃ/", homophonic: "埃博利什", tags: ["CET6", "TOEFL"], definition: "<strong>v.</strong> 废除，取消<br>搭配：<strong>abolish the tax law</strong>", etymology: "<strong>ab-</strong> + <strong>ol</strong>(生长)", synonyms: ["eliminate", "terminate"], sentence_en: "Protesters call to abolish the outdated tax law.", sentence_zh: "抗议者呼吁废除税法。" },
+      { word: "accelerate", phonetic: "/əkˈseləreɪt/", homophonic: "埃克塞雷特", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>v.</strong> 加速，促进<br>搭配：<strong>accelerate economic growth</strong>", etymology: "<strong>ac-</strong> + <strong>celer</strong>(快)", synonyms: ["speed up", "hasten"], sentence_en: "Global warming has begun to accelerate.", sentence_zh: "全球变暖已经开始加速。" },
+      { word: "accommodate", phonetic: "/əˈkɑːmədeɪt/", homophonic: "埃科莫代特", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>v.</strong> 容纳，适应<br>搭配：<strong>accommodate diverse needs</strong>", etymology: "<strong>ac-</strong> + <strong>commod</strong>(舒适)", synonyms: ["lodge", "house"], sentence_en: "The stadium can accommodate 50,000 people.", sentence_zh: "体育场能容纳5万人。" },
+      { word: "accumulate", phonetic: "/əˈkjuːmjəleɪt/", homophonic: "埃克尤米雷特", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>v.</strong> 积累，积聚<br>搭配：<strong>accumulate vast wealth</strong>", etymology: "<strong>ac-</strong> + <strong>cumul</strong>(堆积)", synonyms: ["gather", "collect"], sentence_en: "Dust tends to accumulate rapidly.", sentence_zh: "灰尘往往会迅速积聚。" },
+      { word: "ubiquitous", phonetic: "/juːˈbɪkwɪtəs/", homophonic: "尤碧奎特斯", tags: ["TOEFL", "CET6"], definition: "<strong>adj.</strong> 无处不在的，普遍存在的<br>搭配：<strong>ubiquitous smartphones</strong>", etymology: "<strong>ubi</strong>(到处) + <strong>ous</strong>", synonyms: ["omnipresent", "pervasive"], sentence_en: "Smartphones have become ubiquitous in modern life.", sentence_zh: "智能手机在现代生活中已无处不在。" },
+      { word: "ambiguous", phonetic: "/æmˈbɪɡjuəs/", homophonic: "安比圭厄斯", tags: ["TOEFL", "CET6"], definition: "<strong>adj.</strong> 模棱两可的，含糊不清的<br>搭配：<strong>ambiguous attitude</strong>", etymology: "<strong>ambi-</strong>(周围/两个方向) + <strong>ig</strong>(走)", synonyms: ["vague", "equivocal"], sentence_en: "His response was deliberately ambiguous.", sentence_zh: "他的回答故意含糊不清。" },
+      { word: "comprehensive", phonetic: "/ˌkɑːmprɪˈhensɪv/", homophonic: "康普瑞海瑟夫", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>adj.</strong> 全面的，综合的<br>搭配：<strong>comprehensive reform</strong>", etymology: "<strong>com-</strong> + <strong>prehens</strong>(抓)", synonyms: ["thorough", "extensive"], sentence_en: "The report offers a comprehensive analysis.", sentence_zh: "该报告提供了全面的分析。" },
+      { word: "mitigate", phonetic: "/ˈmɪtɪɡeɪt/", homophonic: "米提盖特", tags: ["TOEFL", "CET6"], definition: "<strong>v.</strong> 减轻，缓和<br>搭配：<strong>mitigate risks</strong>", etymology: "<strong>miti</strong>(温和) + <strong>igate</strong>", synonyms: ["alleviate", "relieve"], sentence_en: "Steps were taken to mitigate the environmental impact.", sentence_zh: "采取了措施以减轻环境影响。" },
+      { word: "pragmatic", phonetic: /præɡˈmætɪk/, homophonic: "普雷格马提克", tags: ["TOEFL", "CET6"], definition: "<strong>adj.</strong> 务实的，注重实效的<br>搭配：<strong>pragmatic approach</strong>", etymology: "<strong>pragma</strong>(行动/事务)", synonyms: ["practical", "realistic"], sentence_en: "We need a pragmatic solution to this problem.", sentence_zh: "我们需要针对这个问题提出务实的解决方案。" }
+    ];
+
+    var ebbinghausData = JSON.parse(localStorage.getItem('vocab_ebbinghaus_schedule') || '{}');
+
+    var currentList = [...wordDatabase];
+    var currentIndex = 0;
+    var currentWordData = null;
+    var currentCategory = 'ALL';
+    var isShuffleMode = false;
+    var isSpellMode = false;
+
+    window.speakText = function(text, rate = 0.9) {
+      if (!('speechSynthesis' in window)) return;
+      window.speechSynthesis.cancel();
+      var utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = rate;
+      window.speechSynthesis.speak(utterance);
+    };
+
+    window.speakToggle = function(text) {
+      window.speakText(text, 0.9);
+    };
+
+    function toggleFlip() {
+      var card = document.getElementById('mainCard');
+      card.classList.toggle('is-flipped');
+    }
+
+    function fuzzyMatch(pattern, text) {
+      pattern = pattern.toLowerCase();
+      text = text.toLowerCase();
+      var pIdx = 0;
+      for (var tIdx = 0; tIdx < text.length; tIdx++) {
+        if (text[tIdx] === pattern[pIdx]) {
+          pIdx++;
+        }
+        if (pIdx === pattern.length) return true;
+      }
+      return false;
+    }
+
+    function renderWordList() {
+      var container = document.getElementById('wordListContainer');
+      container.innerHTML = '';
+      
+      if (currentList.length === 0) {
+        container.innerHTML = '<div class="list-empty">当前没有单词</div>';
+        return;
+      }
+
+      currentList.forEach((item, index) => {
+        var div = document.createElement('div');
+        div.className = 'word-item' + (index === currentIndex ? ' active' : '');
+        
+        var record = ebbinghausData[item.word];
+        var dotClass = '';
+        if (record) {
+          if (record.status === 'forget') dotClass = 'dot-forget';
+          else if (record.status === 'vague') dotClass = 'dot-vague';
+          else if (record.status === 'remember') dotClass = 'dot-remember';
+        }
+
+        div.innerHTML = `<span>${item.word}</span>${dotClass ? `<span class="tag-dot ${dotClass}"></span>` : ''}`;
+        
+        div.onclick = function() {
+          currentIndex = index;
+          loadWord(currentIndex);
+          renderWordList();
+        };
+        container.appendChild(div);
+      });
+    }
+
+    function loadWord(index) {
+      if (currentList.length === 0) return;
+      currentIndex = index;
+      currentWordData = currentList[currentIndex];
+
+      var card = document.getElementById('mainCard');
+      card.classList.remove('is-flipped');
+
+      document.getElementById('show-word').innerText = currentWordData.word;
+      document.getElementById('show-phonetic').innerText = currentWordData.phonetic;
+      document.getElementById('show-homophonic').innerText = currentWordData.homophonic;
+
+      document.getElementById('show-back-word').innerText = currentWordData.word + " " + currentWordData.phonetic;
+      document.getElementById('show-definition').innerHTML = currentWordData.definition;
+      document.getElementById('show-etymology').innerHTML = currentWordData.etymology;
+      document.getElementById('show-sentence-en').innerText = currentWordData.sentence_en;
+      document.getElementById('show-sentence-zh').innerText = currentWordData.sentence_zh;
+
+      var synContainer = document.getElementById('show-synonyms');
+      synContainer.innerHTML = '';
+      currentWordData.synonyms.forEach(syn => {
+        var btn = document.createElement('button');
+        btn.className = 'click-voice-btn';
+        btn.innerText = syn;
+        btn.onclick = function() { window.speakText(syn, 0.9); };
+        synContainer.appendChild(btn);
+      });
+
+      if (isSpellMode) {
+        document.getElementById('spellInput').value = '';
+        window.speakText(currentWordData.word, 0.8);
+      }
+    }
+
+    function filterCategory(category) {
+      currentCategory = category;
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('btn-' + category).classList.add('active');
+      document.getElementById('searchInput').value = '';
+
+      applyFiltersAndSearch();
+    }
+
+    function handleSearch() {
+      applyFiltersAndSearch();
+    }
+
+    function applyFiltersAndSearch() {
+      var keyword = document.getElementById('searchInput').value.trim();
+      var now = Date.now();
+      
+      let baseList = [...wordDatabase];
+      if (currentCategory === 'REVIEW') {
+        baseList = wordDatabase.filter(item => {
+          var rec = ebbinghausData[item.word];
+          if (!rec) return false;
+          return rec.nextReviewTime <= now || rec.status === 'forget';
+        });
+      } else if (currentCategory !== 'ALL') {
+        baseList = wordDatabase.filter(item => item.tags.includes(currentCategory));
+      }
+
+      if (keyword !== '') {
+        baseList = baseList.filter(item => 
+          fuzzyMatch(keyword, item.word) || fuzzyMatch(keyword, item.definition)
+        );
+      }
+
+      if (isShuffleMode) {
+        baseList.sort(() => Math.random() - 0.5);
+      }
+
+      currentList = baseList;
+      currentIndex = 0;
+      renderWordList();
+      loadWord(0);
+    }
+
+    function toggleShuffle() {
+      isShuffleMode = !isShuffleMode;
+      var btn = document.getElementById('shuffleBtn');
+      if (isShuffleMode) {
+        btn.classList.add('active-mode');
+        btn.innerText = "🔀 乱序(开)";
+      } else {
+        btn.classList.remove('active-mode');
+        btn.innerText = "🔀 乱序";
+      }
+      applyFiltersAndSearch();
+    }
+
+    function toggleSpellMode() {
+      isSpellMode = !isSpellMode;
+      var btn = document.getElementById('spellModeBtn');
+      var inputox = document.getElementById('spellInputBox');
+      var normalBox = document.getElementById('normalCardContent');
+
+      if (isSpellMode) {
+        btn.classList.add('active-mode');
+        btn.innerText = "✍️ 默写(开)";
+        inputox.style.display = 'flex';
+        normalBox.style.display = 'none';
+      } else {
+        btn.classList.remove('active-mode');
+        btn.innerText = "✍️ 默写";
+        inputox.style.display = 'none';
+        normalBox.style.display = 'block';
+      }
+      loadWord(currentIndex);
+    }
+
+    function checkSpelling(e) {
+      if (e.key === 'Enter') {
+        var val = document.getElementById('spellInput').value.trim().toLowerCase();
+        if (currentWordData && val === currentWordData.word.toLowerCase()) {
+          alert('🎉 拼写正确！记忆加固！');
+          handleFeedback('remember');
+        } else {
+          alert('❌ 拼写错误，正确答案是：' + currentWordData.word);
+          handleFeedback('forget');
+        }
+      }
+    }
+
+    function handleFeedback(type) {
+      if (currentList.length === 0) return;
+      
+      var wordKey = currentWordData.word;
+      var now = Date.now();
+      var intervalDays = 1;
+
+      if (type === 'forget') {
+        intervalDays = 0.2;
+      } else if (type === 'vague') {
+        intervalDays = 2;
+      } else if (type === 'remember') {
+        intervalDays = 5;
+      }
+
+      var nextTime = now + intervalDays * 24 * 60 * 60 * 1000;
+
+      ebbinghausData[wordKey] = {
+        status: type,
+        nextReviewTime: nextTime
+      };
+      localStorage.setItem('vocab_ebbinghaus_schedule', JSON.stringify(ebbinghausData));
+
+      currentIndex = (currentIndex + 1) % currentList.length;
+      loadWord(currentIndex);
+      renderWordList();
+    }
+
+    var touchStartX = 0;
+    var touchEndX = 0;
+
+    const learningZone = document.getElementById('learningZone');
+    learningZone.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+
+    learningZone.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipeGesture();
+    }, false);
+
+    function handleSwipeGesture() {
+      var threshold = 50; 
+      if (currentList.length === 0) return;
+      if (touchEndX + threshold < touchStartX) {
+        currentIndex = (currentIndex + 1) % currentList.length;
+        loadWord(currentIndex);
+        renderWordList();
+      } else if (touchEndX > touchStartX + threshold) {
+        currentIndex = (currentIndex - 1 + currentList.length) % currentList.length;
+        loadWord(currentIndex);
+        renderWordList();
+      }
+    }
+
+    window.onload = function() {
+      renderWordList();
+      loadWord(0);
+    };
+  </script>
+</body>
+</html>
