@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>四六级 & 托福全能背词王 (智能记忆Pro版)</title>
+  <title>四六级 & 托福全能背词王 (Pro究极版)</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #f4f6f9; color: #1c1c1e; min-height: 100vh; display: flex; flex-direction: column; }
@@ -20,7 +20,7 @@
 
     .main-container { display: flex; flex: 1; height: calc(100vh - 110px); overflow: hidden; }
     
-    .word-list { width: 140px; background: #ffffff; border-right: 1px solid #e5e5ea; overflow-y: auto; flex-shrink: 0; }
+    .word-list { width: 150px; background: #ffffff; border-right: 1px solid #e5e5ea; overflow-y: auto; flex-shrink: 0; }
     .word-item { padding: 12px; border-bottom: 1px solid #f2f2f7; cursor: pointer; font-size: 13px; font-weight: 500; color: #2c2c2e; transition: background 0.2s; display: flex; justify-content: space-between; align-items: center; }
     .word-item:hover, .word-item.active { background: #e5e5ea; color: #007aff; font-weight: bold; border-left: 4px solid #007aff; }
     .tag-dot { width: 6px; height: 6px; border-radius: 50%; display: inline-block; }
@@ -157,7 +157,7 @@
   </div>
 
   <script>
-    // 四六级 & 托福核心扩充词库
+    // 扩充后完整的四六级 & 托福核心高频词库
     var wordDatabase = [
       { word: "abandon", phonetic: "/əˈbændən/", homophonic: "埃班登", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>v.</strong> 放弃，抛弃<br>搭配：<strong>abandon a rigid plan</strong>", etymology: "<strong>a-</strong> + <strong>bandon</strong>(控制)", synonyms: ["desert", "forsake"], sentence_en: "The crew had to abandon the sinking ship.", sentence_zh: "船员们不得不弃船。" },
       { word: "abolish", phonetic: "/əˈbɑːlɪʃ/", homophonic: "埃博利什", tags: ["CET6", "TOEFL"], definition: "<strong>v.</strong> 废除，取消<br>搭配：<strong>abolish the tax law</strong>", etymology: "<strong>ab-</strong> + <strong>ol</strong>(生长)", synonyms: ["eliminate", "terminate"], sentence_en: "Protesters call to abolish the outdated tax law.", sentence_zh: "抗议者呼吁废除税法。" },
@@ -168,7 +168,17 @@
       { word: "ambiguous", phonetic: "/æmˈbɪɡjuəs/", homophonic: "安比圭厄斯", tags: ["TOEFL", "CET6"], definition: "<strong>adj.</strong> 模棱两可的，含糊不清的<br>搭配：<strong>ambiguous attitude</strong>", etymology: "<strong>ambi-</strong>(周围/两个方向) + <strong>ig</strong>(走)", synonyms: ["vague", "equivocal"], sentence_en: "His response was deliberately ambiguous.", sentence_zh: "他的回答故意含糊不清。" },
       { word: "comprehensive", phonetic: "/ˌkɑːmprɪˈhensɪv/", homophonic: "康普瑞海瑟夫", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>adj.</strong> 全面的，综合的<br>搭配：<strong>comprehensive reform</strong>", etymology: "<strong>com-</strong> + <strong>prehens</strong>(抓)", synonyms: ["thorough", "extensive"], sentence_en: "The report offers a comprehensive analysis.", sentence_zh: "该报告提供了全面的分析。" },
       { word: "mitigate", phonetic: "/ˈmɪtɪɡeɪt/", homophonic: "米提盖特", tags: ["TOEFL", "CET6"], definition: "<strong>v.</strong> 减轻，缓和<br>搭配：<strong>mitigate risks</strong>", etymology: "<strong>miti</strong>(温和) + <strong>igate</strong>", synonyms: ["alleviate", "relieve"], sentence_en: "Steps were taken to mitigate the environmental impact.", sentence_zh: "采取了措施以减轻环境影响。" },
-      { word: "pragmatic", phonetic: /præɡˈmætɪk/, homophonic: "普雷格马提克", tags: ["TOEFL", "CET6"], definition: "<strong>adj.</strong> 务实的，注重实效的<br>搭配：<strong>pragmatic approach</strong>", etymology: "<strong>pragma</strong>(行动/事务)", synonyms: ["practical", "realistic"], sentence_en: "We need a pragmatic solution to this problem.", sentence_zh: "我们需要针对这个问题提出务实的解决方案。" }
+      { word: "pragmatic", phonetic: "/præɡˈmætɪk/", homophonic: "普雷格马提克", tags: ["TOEFL", "CET6"], definition: "<strong>adj.</strong> 务实的，注重实效的<br>搭配：<strong>pragmatic approach</strong>", etymology: "<strong>pragma</strong>(行动/事务)", synonyms: ["practical", "realistic"], sentence_en: "We need a pragmatic solution to this problem.", sentence_zh: "我们需要针对这个问题提出务实的解决方案。" },
+      { word: "allocate", phonetic: "/ˈæləkeɪt/", homophonic: "艾洛凯特", tags: ["CET6", "TOEFL"], definition: "<strong>v.</strong> 分配，拨出<br>搭配：<strong>allocate funds</strong>", etymology: "<strong>al-</strong> + <strong>loc</strong>(地方)", synonyms: ["assign", "distribute"], sentence_en: "More resources should be allocated to education.", sentence_zh: "应该向教育分配更多的资源。" },
+      { word: "benevolent", phonetic: "/bəˈnevələnt/", homophonic: "贝内弗兰特", tags: ["TOEFL"], definition: "<strong>adj.</strong> 仁慈的，慈善的<br>搭配：<strong>benevolent dictator</strong>", etymology: "<strong>bene</strong>(好) + <strong>vol</strong>(意愿)", synonyms: ["kindhearted", "charitable"], sentence_en: "She was a benevolent founder of the charity.", sentence_zh: "她是该慈善机构一位仁慈的创办人。" },
+      { word: "candid", phonetic: "/ˈkændɪd/", homophonic: "坎迪德", tags: ["CET6", "TOEFL"], definition: "<strong>adj.</strong> 直率的，坦诚的<br>搭配：<strong>candid discussion</strong>", etymology: "<strong>cand</strong>(白/发光)", synonyms: ["frank", "honest"], sentence_en: "We had a candid conversation about the future.", sentence_zh: "我们就未来进行了一场坦诚的对话。" },
+      { word: "deficit", phonetic: "/ˈdefɪsɪt/", homophonic: "代菲西特", tags: ["CET6", "TOEFL"], definition: "<strong>n.</strong> 赤字，逆差，亏损<br>搭配：<strong>budget deficit</strong>", etymology: "<strong>de-</strong> + <strong>fic</strong>(做/缺)", synonyms: ["shortfall", "loss"], sentence_en: "The company is facing a severe financial deficit.", sentence_zh: "该公司正面临严重的财务赤字。" },
+      { word: "elicit", phonetic: "/iˈlɪsɪt/", homophonic: "伊利西特", tags: ["TOEFL", "CET6"], definition: "<strong>v.</strong> 引出，诱出（反应等）<br>搭配：<strong>elicit a response</strong>", etymology: "<strong>e-</strong> + <strong>lic</strong>(引出)", synonyms: ["extract", "draw out"], sentence_en: "The comedian's joke failed to elicit a laugh.", sentence_zh: "那个喜剧演员的笑话没能引来笑声。" },
+      { word: "feasible", phonetic: "/ˈfiːzəbl/", homophonic: "费泽布尔", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>adj.</strong> 可行的，行得通的<br>搭配：<strong>feasible plan</strong>", etymology: "<strong>feas</strong>(做) + <strong>ible</strong>", synonyms: ["viable", "practicable"], sentence_en: "Is it economically feasible to build a high-speed rail?", sentence_zh: "建设高铁在经济上可行吗？" },
+      { word: "gargantuan", phonetic: "/ɡɑːrˈɡæntʃuən/", homophonic: "加甘丘安", tags: ["TOEFL"], definition: "<strong>adj.</strong> 巨大的，庞大的<br>搭配：<strong>gargantuan appetite</strong>", etymology: "源自巨人小说人物", synonyms: ["colossal", "immense"], sentence_en: "He consumed a gargantuan meal after the hike.", sentence_zh: "徒步旅行后他吃了一顿巨大无比的大餐。" },
+      { word: "hypothesis", phonetic: /haɪˈpɑːθəsɪs/, homophonic: "海帕西斯", tags: ["CET6", "TOEFL"], definition: "<strong>n.</strong> 假设，假说<br>搭配：<strong>test a hypothesis</strong>", etymology: "<strong>hypo-</strong>(下面) + <strong>thesis</strong>(放置)", synonyms: ["theory", "supposition"], sentence_en: "Scientists tested the hypothesis in the laboratory.", sentence_zh: "科学家们在实验室里检验了这一假说。" },
+      { word: "innovative", phonetic: "/ˈɪnəveɪtɪv/", homophonic: "伊诺维提夫", tags: ["CET4", "CET6", "TOEFL"], definition: "<strong>adj.</strong> 创新的，革新的<br>搭配：<strong>innovative technology</strong>", etymology: "<strong>in-</strong> + <strong>nov</strong>(新)", synonyms: ["groundbreaking", "creative"], sentence_en: "Apple is known for its innovative product design.", sentence_zh: "苹果以其创新的产品设计而闻名。" },
+      { word: "jeopardy", phonetic: "/ˈdʒepərdi/", homophonic: "杰帕迪", tags: ["CET6", "TOEFL"], definition: "<strong>n.</strong> 危险，危急关头<br>搭配：<strong>put life in jeopardy</strong>", etymology: "<strong>jeu</strong>(游戏) + <strong>parti</strong>(分歧)", synonyms: ["danger", "peril"], sentence_en: "His reckless driving put many lives in jeopardy.", sentence_zh: "他鲁莽的驾驶让许多生命处于危险之中。" }
     ];
 
     var ebbinghausData = JSON.parse(localStorage.getItem('vocab_ebbinghaus_schedule') || '{}');
@@ -216,7 +226,7 @@
       container.innerHTML = '';
       
       if (currentList.length === 0) {
-        container.innerHTML = '<div class="list-empty">当前没有单词</div>';
+        container.innerHTML = '<div class="list-empty">当前分类下没有单词</div>';
         return;
       }
 
