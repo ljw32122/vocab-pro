@@ -1,1233 +1,716 @@
 [
-  {
-    "word": "scrrutiny",
-    "phonetic": "/ˈskruːtəni/",
-    "homophonic": "斯克鲁特呢",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 仔细审查，仔细观察，监视\n\n搭配：under scrutiny 接受审查，close scrutiny 密切审视",
-    "etymology": "scrutari(在废墟中翻找、仔细搜寻，源自scruta破烂) = 像在杂物中仔细搜寻一样进行严格检查",
-    "synonyms": ["inspection", "examination", "investigation", "analysis"],
-    "sentence_en": "Financial statements of publicly traded companies are subject to rigorous regulatory scrutiny.",
-    "sentence_zh": "上市公司的财务报表必须接受严格的监管审查。"
-  },
-  {
-    "word": "sculpture",
-    "phonetic": "/ˈskʌlptʃər/",
-    "homophonic": "斯卡尔普彻",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 雕塑，雕刻作品；雕刻\n\n搭配：bronze sculpture 青铜雕塑，sculpture art 雕塑艺术",
-    "etymology": "sculptura(雕刻，源自sculpere雕刻、切开) = 用刀具在石头或木头上切削出立体艺术形象",
-    "synonyms": ["statue", "carving", "model", "artwork"],
-    "sentence_en": "The metropolitan museum acquired a rare marble sculpture dating back to ancient Greece.",
-    "sentence_zh": "大都会博物馆获得了一件可追溯到古希腊的珍贵大理石雕塑。"
-  },
-  {
-    "word": "seclude",
-    "phonetic": "/sɪˈkluːd/",
-    "homophonic": "西克鲁德",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. 使隔离，使隐居，使死守\n\n搭配：seclude oneself 隐居，secluded area 幽静的地区",
-    "etymology": "se-(分离、离开) + claudere(关闭、关门) = 把自己或他人关在门外、与世隔绝",
-    "synonyms": ["isolate", "quarantine", "segregate", "withdraw"],
-    "sentence_en": "The exhausted writer decided to seclude himself in a remote cabin to finish his novel.",
-    "sentence_zh": "这位筋疲力尽的作家决定把自己隔离在偏远的林间小屋里以完成他的小说。"
-  },
-  {
-    "word": "secular",
-    "phonetic": "/ˈsekjələr/",
-    "homophonic": "塞库勒",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 世俗的，非宗教的，长期的\n\n搭配：secular state 世俗国家，secular trend 长期趋势",
-    "etymology": "saeculum(世代、世纪、尘世) = 属于现世人间的、与神圣宗教相对立的",
-    "synonyms": ["worldly", "temporal", "civil", "nonreligious"],
-    "sentence_en": "Modern educational institutions generally operate under a secular framework separated from religious dogma.",
-    "sentence_zh": "现代教育机构通常在脱离宗教教条的世俗框架下运行。"
-  },
-  {
-    "word": "secure",
-    "phonetic": "/sɪˈkjʊr/",
-    "homophonic": "西库尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & v. 安全的，牢固的；获得，保护，固定\n\n搭配：secure connection 安全连接，secure funding 获得资金",
-    "etymology": "se-(无、免于) + cura(忧虑、担心) = 没有后顾之忧的、安全的",
-    "synonyms": ["safe", "protected", "acquire", "fasten"],
-    "sentence_en": "Before launching the online application, engineers ensured that all user data was fully secure.",
-    "sentence_zh": "在推出该在线应用程序之前，工程师们确保了所有用户数据的绝对安全。"
-  },
-  {
-    "word": "sedentary",
-    "phonetic": "/ˈsednteri/",
-    "homophonic": "塞登特里",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 久坐的，习惯坐着办公的，定居的\n\n搭配：sedentary lifestyle 久坐的生活方式，sedentary job 久坐的工作",
-    "etymology": "sedere(坐着) + -ary(形容词后缀) = 终日坐着、很少活动的状态",
-    "synonyms": ["inactive", "sitting", "stationary", "settled"],
-    "sentence_en": "Office workers with a sedentary lifestyle should incorporate regular physical exercise into their daily routines.",
-    "sentence_zh": "保持久坐生活方式的上班族应当将规律的体育锻炼纳入日常生活。"
-  },
-  {
-    "word": "segment",
-    "phonetic": "/ˈseɡmənt/",
-    "homophonic": "赛格曼特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 段，部分，市场细分；分割，切成片\n\n搭配：market segment 市场细分，line segment 线段",
-    "etymology": "secare(切割) + -ment(名词后缀) = 从整体中切割或划分出来的小段落",
-    "synonyms": ["section", "portion", "part", "divide"],
-    "sentence_en": "The telecommunications company tailored specific service packages for each consumer demographic segment.",
-    "sentence_zh": "这家电信公司为每个消费者人口统计细分群体量身定制了特定的服务套餐。"
-  },
-  {
-    "word": "segregate",
-    "phonetic": "/ˈseɡrɪɡeɪt/",
-    "homophonic": "赛格里盖特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. 隔离，使分居，使种族隔离\n\n搭配：segregate waste 垃圾分类，segregated accounts 独立账户",
-    "etymology": "se-(离开、分离) + grex(群、羊群，源自gregare聚集成群) = 从群体中剥离出来、分离开",
-    "synonyms": ["isolate", "separate", "divide", "detach"],
-    "sentence_en": "Eco-conscious households carefully segregate recyclable materials from everyday organic household waste.",
-    "sentence_zh": "注重生态环保的家庭会仔细将可回收材料与日常有机生活垃圾分开。"
-  },
-  {
-    "word": "seismic",
-    "phonetic": "/ˈsaɪzmɪk/",
-    "homophonic": "赛兹米克",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 地震的，震动的，重大的（变革等）\n\n搭配：seismic activity 地震活动，seismic shift 重大转变",
-    "etymology": "seismos(地震，源自seiein摇晃) = 地壳摇晃引发的或具有震撼性质的",
-    "synonyms": ["tectonic", "earthshaking", "monumental", "profound"],
-    "sentence_en": "The rapid advent of artificial intelligence created a seismic shift across the global labor market.",
-    "sentence_zh": "人工智能的迅速崛起在全球劳动力市场引发了重大的结构性转变。"
-  },
-  {
-    "word": "select",
-    "phonetic": "/sɪˈlekt/",
-    "homophonic": "西莱克特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. & adj. 选择，挑选；精选的，一流的\n\n搭配：select committee 精选委员会，select items 挑选物品",
-    "etymology": "se-(向外、分离) + legere(挑选、收集) = 从众多选项中把优质的挑选出来",
-    "synonyms": ["choose", "pick", "elected", "exclusive"],
-    "sentence_en": "Researchers select participant samples using a randomized computerized sorting method.",
-    "sentence_zh": "研究人员使用随机化的计算机排序方法来挑选参与者样本。"
-  },
-  {
-    "word": "semiconductor",
-    "phonetic": "/ˈsemikəndʌktər/",
-    "homophonic": "塞米肯达克特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 半导体（材料或芯片）\n\n搭配：semiconductor industry 半导体产业，semiconductor chip 半导体芯片",
-    "etymology": "semi-(半) + conductor(导体) = 导电性能介于导体和绝缘体之间的电子材料",
-    "synonyms": ["microchip", "silicon chip", "solid-state device"],
-    "sentence_en": "Advanced semiconductor fabrication plants require multi-billion dollar capital investments.",
-    "sentence_zh": "先进的半导体制造厂需要数十亿美元的资本投资。"
-  },
-  {
-    "word": "seminar",
-    "phonetic": "/ˈsemɪnɑːr/",
-    "homophonic": "塞米纳尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 研讨会，讲习班，大学研讨课\n\n搭配：research seminar 研究研讨会，attend a seminar 参加研讨会",
-    "etymology": "seminarium(苗圃，源自semen种子) = 播撒知识种子、供学者共同讨论的场所",
-    "synonyms": ["workshop", "symposium", "conference", "class"],
-    "sentence_en": "Graduate students presented their interim thesis findings during the weekly departmental seminar.",
-    "sentence_zh": "研究生们在每周的系内研讨会上汇报了他们的中期论文阶段性成果。"
-  },
-  {
-    "word": "senate",
-    "phonetic": "/ˈsenət/",
-    "homophonic": "塞纳特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 参议院，上议院\n\n搭配：US Senate 美国参议院，senate member 参议员",
-    "etymology": "senex(老人的、长者，源自senator元老) = 由德高望重的老年长者组成的最高议事机构",
-    "synonyms": ["upper house", "legislature", "congress"],
-    "sentence_en": "The national parliament consists of a lower house of representatives and an upper senate.",
-    "sentence_zh": "国民议会由众议院和上议院组成。"
-  },
-  {
-    "word": "sensation",
-    "phonetic": "/senˈseɪʃn/",
-    "homophonic": "森塞申",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 感觉，知觉，轰动事件\n\n搭配：burning sensation 灼烧感，cause a sensation 引起轰动",
-    "etymology": "sensus(感官、感受，源自sentire感知) + -ation(名词后缀) = 身体器官或精神受刺激产生的感觉",
-    "synonyms": ["feeling", "perception", "phenomenon", "stir"],
-    "sentence_en": "The young pianist's debut performance became an overnight sensation across the music world.",
-    "sentence_zh": "这位年轻钢琴家的首场演出在整个音乐界一夜成名、引起了轰动。"
-  },
-  {
-    "word": "sensible",
-    "phonetic": "/ˈsensəbl/",
-    "homophonic": "森瑟布尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 明智的，合情合理的，切合实际的\n\n搭配：sensible decision 明智的决定，sensible approach 切实可行的方案",
-    "etymology": "sensibilis(可感知的，后引申为有理智、明辨是非的)",
-    "synonyms": ["reasonable", "practical", "wise", "prudent"],
-    "sentence_en": "Investing surplus emergency cash into low-risk treasury bonds is a sensible financial strategy.",
-    "sentence_zh": "将多余的应急现金投资于低风险的国库券是一种明智的财务策略。"
-  },
-  {
-    "word": "sentence",
-    "phonetic": "/ˈsentəns/",
-    "homophonic": "森腾斯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 句子，宣判，判决<br>搭配：death sentence 死刑判决，serve a sentence 服刑",
-    "etymology": "sententia(意见、判决，源自sentire感觉、思考) = 法官表达的最终裁决意见，或语法上表达完整意思的语句",
-    "synonyms": ["judgment", "condemnation", "period", "phrase"],
-    "sentence_en": "The presiding judge handed down a ten-year prison sentence for financial fraud.",
-    "sentence_zh": "主审法官因金融诈骗罪下达了十年监禁的判决。"
-  },
-  {
-    "word": "sentiment",
-    "phonetic": "/ˈsentɪmənt/",
-    "homophonic": "森蒂门特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 情绪，观点，感情，市场情绪\n\n搭配：market sentiment 市场情绪，public sentiment 公众情绪",
-    "etymology": "sentire(感知) + -ment(名词后缀) = 内心深处的情感反应或主观意见",
-    "synonyms": ["feeling", "emotion", "opinion", "attitude"],
-    "sentence_en": "Stock market investors closely monitor consumer sentiment indices to gauge upcoming retail trends.",
-    "sentence_zh": "股市投资者密切监控消费者情绪指数，以衡量即将到来的零售趋势。"
-  },
-  {
-    "word": "sequence",
-    "phonetic": "/ˈsiːkwens/",
-    "homophonic": "西奎恩斯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 顺序，序列，先后；按顺序排列\n\n搭配：in sequence 按顺序，DNA sequence DNA序列",
-    "etymology": "sequi(跟随) + -ence(名词后缀) = 后续事物一个接一个前后相随的次序",
-    "synonyms": ["order", "succession", "series", "progression"],
-    "sentence_en": "Biologists mapped the complete genetic sequence of the organism to study mutation patterns.",
-    "sentence_zh": "生物学家绘制了该生物的完整基因序列，以研究突变模式。"
-  },
-  {
-    "word": "serene",
-    "phonetic": "/səˈriːn/",
-    "homophonic": "斯林",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 平静的，安详的，清澈的\n\n搭配：serene environment 安静的环境，serene expression 平静的表情",
-    "etymology": "serenus(晴朗的、无云的) = 天空晴朗无云时那种宁静祥和的景象",
-    "synonyms": ["calm", "peaceful", "tranquil", "composed"],
-    "sentence_en": "The alpine lake offered a serene retreat away from the chaotic noise of urban life.",
-    "sentence_zh": "高山湖泊提供了一个远离都市喧嚣的平静隐居地。"
-  },
-  {
-    "word": "serial",
-    "phonetic": "/ˈsɪriəl/",
-    "homophonic": "西里尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & n. 连续的，串行的，分期连载的；连续剧，连载小说\n\n搭配：serial number 序列号，serial port 串口",
-    "etymology": "series(连续、系列) + -al(形容词后缀) = 像链条一样按序首尾相连的",
-    "synonyms": ["sequential", "successive", "consecutive"],
-    "sentence_en": "Every manufactured electronic device is labeled with a unique serial number for tracking warranty.",
-    "sentence_zh": "每台制造的电子设备都贴有唯一的序列号，用于跟踪保修。"
-  },
-  {
-    "word": "service",
-    "phonetic": "/ˈsɜːrvɪs/",
-    "homophonic": "瑟维斯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 服务，公共设施，维修保养；检修，提供服务\n\n搭配：customer service 客户服务，car service 汽车保养",
-    "etymology": "servus(奴隶、仆人) = 为他人提供服侍、劳务或公益功能的行为",
-    "synonyms": ["assistance", "utility", "maintenance", "provision"],
-    "sentence_en": "Cloud computing providers guarantee 99.9% uptime service availability for enterprise databases.",
-    "sentence_zh": "云计算提供商保证企业数据库具有99.9%的运行时间服务可用性。"
-  },
-  {
-    "word": "session",
-    "phonetic": "/ˈseʃn/",
-    "homophonic": "塞申",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 会议，（开庭、开学等）期间，场次\n\n搭配：training session 培训场次，trading session 交易时段",
-    "etymology": "sedere(坐下) + -ion(名词后缀) = 众人坐在一起开会或进行活动的持续时段",
-    "synonyms": ["meeting", "assembly", "period", "sitting"],
-    "sentence_en": "The morning trading session on the global exchange experienced unusually high volatility.",
-    "sentence_zh": "全球交易所的早盘交易时段经历了异常高的波动性。"
-  },
-  {
-    "word": "sever",
-    "phonetic": "/ˈsevər/",
-    "homophonic": "塞弗尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. 切断，割断，断绝（关系）\n\n搭配：sever ties 断绝关系，sever diplomatic relations 断绝外交关系",
-    "etymology": "separare(分离，演变为severare) = 把原本连在一起的部分彻底砍断或分开",
-    "synonyms": ["cut off", "disconnect", "rupture", "split"],
-    "sentence_en": "The major storm caused fallen trees to sever power lines across several rural districts.",
-    "sentence_zh": "这场大风暴导致倒塌的树木切断了几个农村地区的电力线。"
-  },
-  {
-    "word": "severe",
-    "phonetic": "/sɪˈvɪr/",
-    "homophonic": "西维尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 严重的，严厉的，严格的\n\n搭配：severe weather 恶劣天气，severe penalty 严厉惩罚",
-    "etymology": "severus(严肃的、严格的、严峻的)",
-    "synonyms": ["harsh", "strict", "grave", "intense"],
-    "sentence_en": "Meteorologists issued a warning regarding severe thunderstorm activity approaching the coast.",
-    "sentence_zh": "气象学家发布了关于逼近海岸的强雷暴活动的警告。"
-  },
-  {
-    "word": "shackle",
-    "phonetic": "/ˈʃækl/",
-    "homophonic": "夏克尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 脚镣，束缚，羁绊；束缚，加脚镣\n\n搭配: shackle economic growth 束缚经济增长",
-    "etymology": "sceacul(古英语：束缚手脚的铁链) = 限制犯人自由或束缚事物发展的桎梏",
-    "synonyms": ["fetter", "manacle", "restraint", "constraint"],
-    "sentence_en": "Reformists argued that outdated regulatory frameworks continued to shackle business innovation.",
-    "sentence_zh": "改革派认为，过时的监管框架继续束缚着商业创新。"
-  },
-  {
-    "word": "shadow",
-    "phonetic": "/ˈʃædoʊ/",
-    "homophonic": "夏多",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 阴影，影子，隐蔽处；尾随，暗中监视\n\n搭配：cast a shadow 投下阴影，shadow banking 影子银行",
-    "etymology": "sceadu(古英语：阴凉、阴暗处) = 物体挡住光线后在地面形成的暗影",
-    "synonyms": ["shade", "silhouette", "trail", "stalk"],
-    "sentence_en": "Private investigators were hired to discreetly shadow the suspect during his business trip.",
-    "sentence_zh": "私家侦探被雇佣在嫌疑人出差期间对其进行低调暗中监视。"
-  },
-  {
-    "word": "shallow",
-    "phonetic": "/ˈʃæloʊ/",
-    "homophonic": "夏洛",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 浅的，肤浅的，浅显的\n\n搭配：shallow water 浅水，shallow analysis 肤浅的分析",
-    "etymology": "slow(古日耳曼语：平坦、底浅的) = 深度不够、触底容易的水域或思想",
-    "synonyms": ["superficial", "surface", "trivial", "flat"],
-    "sentence_en": "Coral reefs typically thrive in warm, shallow coastal waters with abundant sunlight exposure.",
-    "sentence_zh": "珊瑚礁通常在阳光充足的温暖浅海水域中繁衍生息。"
-  },
-  {
-    "word": "shatter",
-    "phonetic": "/ˈʃætər/",
-    "homophonic": "夏特尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. 粉碎，砸碎，使破灭\n\n搭配：shatter dreams 梦想破灭，shatter into pieces 碎成碎片",
-    "etymology": "scattern(古日耳曼语：四分五裂) = 物体受到重击后瞬间碎裂成无数小块",
-    "synonyms": ["smash", "fracture", "destroy", "wreck"],
-    "sentence_en": "A sudden drop in stock prices served to shatter the optimistic expectations of investors.",
-    "sentence_zh": "股价的突然暴跌彻底粉碎了投资者乐观的预期。"
-  },
-  {
-    "word": "sheer",
-    "phonetic": "/ʃɪr/",
-    "homophonic": "希尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 陡峭的，纯粹的，薄而透明的\n\n搭配：sheer cliff 陡峭悬崖，sheer coincidence 纯属巧合",
-    "etymology": "scir(古英语：明亮的、纯净的) = 引申为完全没有掺杂质的纯粹状态或陡直的悬崖",
-    "synonyms": ["steep", "absolute", "utter", "pure"],
-    "sentence_en": "Mountaineers had to scale a sheer rock face to reach the summit of the peak.",
-    "sentence_zh": "登山者必须攀登一面陡峭的岩壁才能到达山峰顶端。"
-  },
-  {
-    "word": "shelter",
-    "phonetic": "/ˈʃeltər/",
-    "homophonic": "谢尔特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 庇护所，避难所；庇护，掩蔽\n\n搭配：emergency shelter 应急避难所，tax shelter 避税天堂",
-    "etymology": "scyld(盾牌) = 提供像盾牌一样遮挡风雨和危险的庇护空间",
-    "synonyms": ["refuge", "sanctuary", "protect", "shield"],
-    "sentence_en": "Disaster relief workers set up temporary tent shelters for families displaced by the earthquake.",
-    "sentence_zh": "救灾人员为因地震而无家可归的家庭搭建了临时的帐篷避难所。"
-  },
-  {
-    "word": "shield",
-    "phonetic": "/ʃiːld/",
-    "homophonic": "希尔德",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 盾，防护物；保护，遮蔽\n\n搭配：protective shield 防护罩，shield against 保护免受……",
-    "etymology": "scield(古英语：盾牌、防御物) = 用于在战斗中阻挡敌方武器攻击的防具",
-    "synonyms": ["guard", "protector", "defense", "safeguard"],
-    "sentence_en": "Thick atmospheric ozone layers act as a natural shield against harmful ultraviolet solar radiation.",
-    "sentence_zh": "厚厚的大气臭氧层充当了抵御有害太阳紫外线辐射的天然屏障。"
-  },
-  {
-    "word": "shift",
-    "phonetic": "/ʃɪft/",
-    "homophonic": "希夫特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 转移，转变，轮班；移动，改变\n\n搭配：shift focus 转移焦点，night shift 夜班",
-    "etymology": "skifta(古诺斯语：分割、交换位置) = 从一个地方或状态变动、转移到另一个位置",
-    "synonyms": ["transfer", "change", "move", "switch"],
-    "sentence_en": "Automotive industries are currently experiencing a major shift toward electric vehicle manufacturing.",
-    "sentence_zh": "汽车工业目前正在经历向电动汽车制造的重大转变。"
-  },
-  {
-    "word": "shiver",
-    "phonetic": "/ˈʃɪvər/",
-    "homophonic": "希维尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 颤抖，哆嗦（因寒冷或恐惧）\n\n搭配：send shivers down one's spine 令人毛骨悚然，shiver with cold 因冷而发抖",
-    "etymology": "skifrn(古日耳曼语：碎裂、颤抖) = 肌肉因受寒冷刺激而产生细微快速的抖动",
-    "synonyms": ["tremble", "shudder", "quake", "vibrate"],
-    "sentence_en": "Hikers began to shiver as nighttime temperatures dropped sharply across the mountain range.",
-    "sentence_zh": "随着山脉夜间气温骤降，徒步旅行者开始哆嗦起来。"
-  },
-  {
-    "word": "shoal",
-    "phonetic": "/ʃoʊl/",
-    "homophonic": "肖尔",
-    "tags": ["TOEFL"],
-    "definition": "n. 鱼群，浅滩，浅水处\n\n搭配：shoal of fish 一群鱼",
-    "etymology": "scolu(古英语：大群、人群) = 水中游动的密集鱼群或水深较浅的沙洲",
-    "synonyms": ["school", "bank", "shallow", "sandbar"],
-    "sentence_en": "A massive shoal of silver fish darted rapidly through the coral reef channels.",
-    "sentence_zh": "一大群银色的鱼迅速穿过珊瑚礁水道。"
-  },
-  {
-    "word": "shore",
-    "phonetic": /ʃɔːr/,
-    "homophonic": "肖尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 海岸，滨，岸边\n\n搭配：shoreline 海岸线，offshore 离岸的",
-    "etymology": "schor(中世纪荷兰语：支撑、断裂处) = 陆地与水面交汇的边缘支撑地带",
-    "synonyms": ["coast", "beach", "bank", "strand"],
-    "sentence_en": "Gentle ocean waves washed ashore, depositing colorful seashells along the sandy beach.",
-    "sentence_zh": "温和的海浪冲刷着海岸，在沙滩上留下了五颜六色的贝壳。"
-  },
-  {
-    "word": "shortage",
-    "phonetic": "/ˈʃɔːrtɪdʒ/",
-    "homophonic": "肖蒂奇",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 不足，缺乏，短缺\n\n搭配：labor shortage 劳动力短缺，water shortage 水荒",
-    "etymology": "short(短的、不足的) + -age(名词后缀) = 数量不够短缺的状态",
-    "synonyms": ["deficiency", "scarcity", "lack", "deficit"],
-    "sentence_en": "Global supply chain disruptions resulted in a widespread semiconductor shortage for tech manufacturers.",
-    "sentence_zh": "全球供应链中断导致科技制造商出现广泛的半导体短缺。"
-  },
-  {
-    "word": "shrink",
-    "phonetic": "/ʃrɪŋk/",
-    "homophonic": "施林克",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. & n. 收缩，缩水，退缩，减少\n\n搭配：shrink wrap 收缩膜，shrink in size 尺寸缩小",
-    "etymology": "scrincan(古英语：枯萎、干瘪、收缩) = 物质因受热或脱水而体积变小",
-    "synonyms": ["contract", "dwindle", "decrease", "reduce"],
-    "sentence_en": "Natural wool garments tend to shrink significantly if washed in hot water.",
-    "sentence_zh": "天然羊毛服装如果在热水里洗涤往往会严重缩水。"
-  },
-  {
-    "word": "shroud",
-    "phonetic": "/ʃraʊd/",
-    "homophonic": "施劳德",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 覆盖物，寿衣；隐藏，笼罩\n\n搭配：shrouded in mystery 笼罩在神秘之中",
-    "etymology": "scrud(古英语：衣服、布料) = 原指包裹尸体的布或盖在物体表面的覆盖物",
-    "synonyms": ["veil", "cover", "cloak", "obscure"],
-    "sentence_en": "The ancient origins of the megalithic monument remain shrouded in scientific mystery.",
-    "sentence_zh": "这座巨石纪念碑的古老起源依然笼罩在科学的神秘面纱之中。"
-  },
-  {
-    "word": "shutter",
-    "phonetic": "/ˈʃʌtər/",
-    "homophonic": "夏特尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 百叶窗，（相机）快门\n\n搭配：camera shutter 相机快门，window shutter 窗户百叶窗",
-    "etymology": "shut(关闭) + -er(名词后缀) = 用于把窗户或镜头彻底关上、遮挡光线的部件",
-    "synonyms": ["blind", "cover", "apertura"],
-    "sentence_en": "Professional photographers adjust camera shutter speeds to freeze high-speed motion in focus.",
-    "sentence_zh": "专业摄影师通过调整相机快门速度来将高速运动清晰定格。"
-  },
-  {
-    "word": "sibling",
-    "phonetic": "/ˈsɪblɪŋ/",
-    "homophonic": "西布林",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 兄，弟，姐，妹（同胞兄弟姐妹）\n\n搭配：sibling rivalry 兄弟姐妹间的竞争，sibling relationship 手足关系",
-    "etymology": "sib(血亲、亲属，源自古英语) + -ling(小后缀) = 拥有共同父母的亲兄弟姐妹",
-    "synonyms": ["brother", "sister", "kin"],
-    "sentence_en": "Psychologists study how birth order among siblings influences personality traits in adulthood.",
-    "sentence_zh": "心理学家研究兄弟姐妹之间的出生顺序如何影响成年后的性格特征。"
-  },
-  {
-    "word": "sicle",
-    "phonetic": "/ˈsɪkl/",
-    "homophonic": "西克尔",
-    "tags": ["TOEFL"],
-    "definition": "n. 镰刀\n\n搭配：sickle cell 镰状细胞",
-    "etymology": "secil(古英语：割草工具，源自secare切割) = 带有弯曲刀刃的农用收割工具",
-    "synonyms": ["scythe", "reaper"],
-    "sentence_en": "Ancient farmers traditionally harvested golden wheat fields using hand-held steel sickles.",
-    "sentence_zh": "古代农民传统上使用手持钢镰刀收割金色的麦田。"
-  },
-  {
-    "word": "sideline",
-    "phonetic": "/ˈsaɪdlaɪn/",
-    "homophonic": "赛德拉因",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 副业，边线，场外\n\n搭配：on the sidelines 在场外旁观，run a sideline 做副业",
-    "etymology": "side(旁边) + line(线) = 运动场边线或本职工作之外的侧面兼职活动",
-    "synonyms": ["part-time job", "hobby", "margin"],
-    "sentence_en": "Software engineers often pursue open-source coding projects as a profitable intellectual sideline.",
-    "sentence_zh": "软件工程师经常把开源编码项目作为一项有利可图的智力副业。"
-  },
-  {
-    "word": "siege",
-    "phonetic": "/siːdʒ/",
-    "homophonic": "西吉",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 围攻，包围，困境\n\n搭配：lay siege to 围攻，under siege 遭受围困",
-    "etymology": "sedere(坐下) = 军队在城外驻扎安营、长期坐守以围困敌方城堡",
-    "synonyms": ["beleaguerment", "blockade", "investment"],
-    "sentence_en": "Medieval military commanders used prolonged tactical sieges to force fortified castles to surrender.",
-    "sentence_zh": "中世纪军事指挥官使用长期的战术围困迫使筑有防御工事的城堡投降。"
-  },
-  {
-    "word": "significant",
-    "phonetic": "/sɪɡˈnɪfɪkənt/",
-    "homophonic": "西格尼费坎特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 意义重大的，显著的，意味深长的\n\n搭配：significant difference 显著差异，statistically significant 统计显著的",
-    "etymology": "signum(标志、记号) + facere(制作) = 带有明确标志、值得注意且具有重要意义的",
-    "synonyms": ["meaningful", "substantial", "considerable", "notable"],
-    "sentence_en": "Clinical trials demonstrated a statistically significant improvement in patient recovery rates.",
-    "sentence_zh": "临床试验表明患者康复率有了统计学上显着的改善。"
-  },
-  {
-    "word": "silicon",
-    "phonetic": "/ˈsɪlɪkən/",
-    "homophonic": "西利肯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 硅（化学元素，半导体芯片基础原料）\n\n搭配：Silicon Valley 硅谷，silicon wafer 硅片",
-    "etymology": "silex(打火石、燧石) + -on(化学元素后缀) = 地壳中广泛存在的半金属元素",
-    "synonyms": ["semiconductor material"],
-    "sentence_en": "High-purity silicon wafers serve as the fundamental substrate for microelectronic integrated circuits.",
-    "sentence_zh": "高纯度硅片充当微电子集成电路的基本基底。"
-  },
-  {
-    "word": "simulate",
-    "phonetic": "/ˈsɪmjuleɪt/",
-    "homophonic": "西姆朱莱特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. 模拟，模仿，假装\n\n搭配：simulate conditions 模拟条件，simulation software 仿真软件",
-    "etymology": "similis(相似的) = 制造出与真实情况高度相似的环境或外观以进行测试",
-    "synonyms": ["imitate", "model", "mimic", "replicate"],
-    "sentence_en": "Aerospace engineers use supercomputers to simulate hypersonic airflow dynamics around aircraft wings.",
-    "sentence_zh": "航空航天工程师使用超级计算机来模拟飞机机翼周围的高超音速气流动力学。"
-  },
-  {
-    "word": "simultaneous",
-    "phonetic": "/ˌsɪmlˈteɪniəs/",
-    "homophonic": "塞姆尔泰尼厄斯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 同时发生的，同步的\n\n搭配：simultaneous translation 同声传译，simultaneous execution 同步执行",
-    "etymology": "simul(同时) + -aneous(形容词后缀) = 在同一时间点共同发生的",
-    "synonyms": ["concurrent", "synchronous", "coincident", "parallel"],
-    "sentence_en": "Multi-threaded programming allows computers to execute multiple tasks in simultaneous fashion.",
-    "sentence_zh": "多线程编程允许计算机以同时的方式执行多项任务。"
-  },
-  {
-    "word": "sincere",
-    "phonetic": "/sɪnˈsɪr/",
-    "homophonic": "森锡尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 真诚的，诚挚的，诚恳的\n\n搭配：sincere apologies 诚挚的歉意，sincere gratitude 真诚的谢意",
-    "etymology": "sine(无) + cera(蜡) = 古罗马陶工不用蜡去掩盖陶器裂痕、比喻毫无虚假的纯净",
-    "synonyms": ["honest", "genuine", "earnest", "heartfelt"],
-    "sentence_en": "The corporate executive offered a sincere apology for the operational data breach.",
-    "sentence_zh": "该企业高管就业务数据泄露事件致以了真诚的歉意。"
-  },
-  {
-    "word": "singular",
-    "phonetic": "/ˈsɪŋɡjələr/",
-    "homophonic": "辛格尤勒",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 单数的，非凡的，独特的，异常的\n\n搭配：singular form 单数形式，singular achievement 卓越的成就",
-    "etymology": "singuli(单独的、一个一个的) = 独一无二的、不同寻常的或语法上的单数",
-    "synonyms": ["unique", "exceptional", "remarkable", "individual"],
-    "sentence_en": "She displayed a singular dedication to medical research throughout her professional career.",
-    "sentence_zh": "她在整个职业生涯中对医学研究表现出了无与伦比的专一奉献。"
-  },
-  {
-    "word": "sinister",
-    "phonetic": "/ˈsɪnɪstər/",
-    "homophonic": "西尼斯托",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 阴险的，邪恶的，不祥的\n\n搭配：sinister motives 险恶的动机，sinister appearance 阴险的外表",
-    "etymology": "sinister(拉丁语：左边的，古罗马占卜认为左边是不吉利的方位) = 引申为不祥、邪恶的",
-    "synonyms": ["ominous", "malevolent", "evil", "threatening"],
-    "sentence_en": "Cybersecurity investigators detected sinister malware hidden within the downloaded software package.",
-    "sentence_zh": "网络安全调查员在下载的软件包中检测到了隐藏的险恶恶意软件。"
-  },
-  {
-    "word": "skeleton",
-    "phonetic": "/ˈskelɪtn/",
-    "homophonic": "斯凯利顿",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 骨骼，骨架，精简结构\n\n搭配：skeleton key 万能钥匙，skeleton crew 核心留守人员",
-    "etymology": "skeletos(枯干的木乃伊，源自skellein干枯) = 人或动物身体去除血肉后剩下的骨骼框架",
-    "synonyms": ["framework", "structure", "outline", "shell"],
-    "sentence_en": "Paleontologists carefully excavated a complete dinosaur skeleton buried in sedimentary rock.",
-    "sentence_zh": "古生物学家小心翼翼地发掘出一具埋藏在沉积岩中的完整恐龙骨架。"
-  },
-  {
-    "word": "sketch",
-    "phonetic": "/sketʃ/",
-    "homophonic": "斯凯奇",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 素描，速写，草图；草拟，概述\n\n搭配": "preliminary sketch 初步草图，sketch out 简略勾勒",
-    "etymology": "schedio(即兴的、速写，源自scheda纸页) = 快速勾勒轮廓的简短图画或说明",
-    "synonyms": ["outline", "draft", "drawing", "delineate"],
-    "sentence_en": "The architect quickly drew a rough sketch of the building layout on a napkin.",
-    "sentence_zh": "建筑师迅速在一张餐巾纸上画出了建筑布局的草图。"
-  },
-  {
-    "word": "skew",
-    "phonetic": "/skjuː/",
-    "homophonic": "斯尤",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. & adj. 歪斜，偏斜，扭曲；不对称的，有偏见的\n\n搭配：skewed distribution 偏态分布，skew results 扭曲结果",
-    "etymology": "eschewer(古法语：偏离、躲开) = 使得原本对称或平衡的数据发生向一侧倾斜的偏差",
-    "synonyms": ["slant", "distort", "bias", "warp"],
-    "sentence_en": "An inadequate sample size can severely skew the statistical accuracy of survey outcomes.",
-    "sentence_zh": "样本量不足会严重扭曲调查结果的统计准确性。"
-  },
-  {
-    "word": "skillet",
-    "phonetic": "/ˈskɪlɪt/",
-    "homophonic": "斯基利特",
-    "tags": ["TOEFL"],
-    "definition": "n. 铁锅，平底煎锅\n\n搭配：cast-iron skillet 铸铁平底锅",
-    "etymology": "escuete(古法语：带脚的小锅，源自scutella小盘子) = 带有长柄的厨房烹饪平底锅",
-    "synonyms": ["frying pan", "pan", "skillet"],
-    "sentence_en": "Seasoned cast-iron skillets provide superior heat distribution for searing steaks.",
-    "sentence_zh": "保养良好的铸铁平底锅能为煎牛排提供极佳的受热均匀度。"
-  },
-  {
-    "word": "skim",
-    "phonetic": "/skɪm/",
-    "homophonic": "斯基姆",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. 撇去，浏览，掠过，滑过\n\n搭配：skim milk 脱脂牛奶，skim through 粗略浏览",
-    "etymology": "esquimmer(古法语：捞出漂浮物) = 最初指撇去液体表面的浮沫，后引申为快速浏览文章大意",
-    "synonyms": ["browse", "scan", "glance", "graze"],
-    "sentence_en": "Busy executives often skim through long reports to extract key executive summaries.",
-    "sentence_zh": "忙碌的高管经常快速浏览长篇报告，以提取关键的高管摘要。"
-  },
-  {
-    "word": "skirmish",
-    "phonetic": "/ˈskɜːrmɪʃ/",
-    "homophonic": "斯库尔米什",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 小冲突，小规模交火\n\n搭配：border skirmish 边境小冲突，verbal skirmish 口角争端",
-    "etymology": "escermuffle(日耳曼语族：击剑、搏斗) = 两军之间未全面开战前的小规模局部接触",
-    "synonyms": ["clash", "encounter", "conflict", "brush"],
-    "sentence_en": "Patrol units engaged in a brief border skirmish before diplomatic de-escalation took effect.",
-    "sentence_zh": "在外交缓和措施生效之前，巡逻部队发生了一次短暂的边境小冲突。"
-  },
-  {
-    "word": "slack",
-    "phonetic": "/slæk/",
-    "homophonic": "斯拉克",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. & v. 松弛的，萧条的，怠慢的；松开，偷懒\n\n搭配：slack season 淡季，slack demand 需求疲软",
-    "etymology": "slaec(古英语：松懈的、迟钝的) = 没有拉紧或缺乏活力的松弛状态",
-    "synonyms": ["loose", "lax", "sluggish", "slow"],
-    "sentence_en": "Retail businesses experienced a temporary economic slack following the holiday shopping season.",
-    "sentence_zh": "零售企业在节日购物季过后经历了一段暂时的经济疲软期。"
-  },
-  {
-    "word": "slang",
-    "phonetic": "/slæŋ/",
-    "homophonic": "斯拉恩",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 俚语，行话，黑话\n\n搭配：internet slang 网络俚语，use slang 使用俚语",
-    "etymology": "词源不明（可能源自早期北欧方言或行话俚语） = 特定群体内部非正式的流行用语",
-    "synonyms": ["idiom", "jargon", "colloquialism", "cant"],
-    "sentence_en": "Teenagers frequently invent innovative internet slang expressions to communicate online.",
-    "sentence_zh": "青少年经常发明创新的网络俚语表达来在网上交流。"
-  },
-  {
-    "word": "slant",
-    "phonetic": "/slænt/",
-    "homophonic": "斯拉恩特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 倾斜，斜面，观点倾向\n\n搭配：editorial slant 社论倾向，slanting roof 倾斜屋顶",
-    "etymology": "slentin(中世纪日耳曼语：滑向一侧、倾斜) = 偏离垂直或水平方向的角度",
-    "synonyms": ["slope", "tilt", "bias", "angle"],
-    "sentence_en": "The journalist's report carried a noticeable political slant favoring administrative reform.",
-    "sentence_zh": "这位记者的报道带有明显的倾向于行政改革的政治偏向。"
-  },
-  {
-    "word": "slate",
-    "phonetic": "/sleɪt/",
-    "homophonic": "斯莱特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 石板，石板瓦，预定，计划\n\n搭配：clean slate 全新开始，slate for 预定安排",
-    "etymology": "esclate(古法语：劈开、裂开) = 可以层层剥离用来做屋顶瓦片或书写板的细粒岩石",
-    "synonyms": ["schedule", "plan", "shale", "record"],
-    "sentence_en": "The corporate earnings conference is slated to take place on Thursday morning.",
-    "sentence_zh": "公司财报会议预定于周四上午举行。"
-  },
-  {
-    "word": "slender",
-    "phonetic": "/ˈslendər/",
-    "homophonic": "斯伦德尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 修长的，苗条的，微薄的\n\n搭配：slender figure 苗条身材，slender margin 微弱的优势/差距",
-    "etymology": "slindr(日耳曼语：单薄、修长) = 细长而优美的形态",
-    "synonyms": ["slim", "lean", "thin", "slight"],
-    "sentence_en": "The candidate won the municipal election by a remarkably slender margin of fifty votes.",
-    "sentence_zh": "这位候选人以区区五十票的微弱优势赢得了市政选举。"
-  },
-  {
-    "word": "slick",
-    "phonetic": "/slɪk/",
-    "homophonic": "斯利克",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. & n. 光滑的，圆滑的，熟练的；油膜\n\n搭配：oil slick 油污，slick design 光滑流畅的设计",
-    "etymology": "slic(古日耳曼语：光滑、发亮) = 表面平滑发亮或行事圆滑精明",
-    "synonyms": ["smooth", "slippery", "glossy", "clever"],
-    "sentence_en": "Coast guard vessels rushed to clean up a large oil slick spotted off the shipping channel.",
-    "sentence_zh": "海岸警卫队船只赶忙清理航道外海发现的大片浮油。"
-  },
-  {
-    "word": "slide",
-    "phonetic": "/slaɪd/",
-    "homophonic": "斯莱德",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 滑动，幻灯片，滑梯<br>搭配：powerpoint slide PPT幻灯片，landslide 滑坡",
-    "etymology": "slidan(古英语：滑行、失足) = 在光滑表面平稳滑动或滑落",
-    "synonyms": ["glide", "slip", "skid", "transparency"],
-    "sentence_en": "The financial analyst presented quarterly growth trends using a series of clear slides.",
-    "sentence_zh": "财务分析师使用一系列清晰的幻灯片展示了季度增长趋势。"
-  },
-  {
-    "word": "slight",
-    "phonetic": "/slaɪt/",
-    "homophonic": "斯莱特",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & v. 轻微的，微小的；冷落，轻视\n\n搭配：slight variation 微小变化，slight risk 轻微风险",
-    "etymology": "sleight(微不足道、平滑的) = 程度轻微或分量很轻的",
-    "synonyms": ["minor", "minimal", "slender", "disregard"],
-    "sentence_en": "Laboratory tests indicated only a slight temperature fluctuation during the chemical reaction.",
-    "sentence_zh": "实验室测试表明化学反应过程中仅有微小的温度波动。"
-  },
-  {
-    "word": "slip",
-    "phonetic": "/slɪp/",
-    "homophonic": "斯利普",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. & n. 滑倒，滑落，失足，纸条\n\n搭配：slip of the tongue 口误，deposit slip 存款单",
-    "etymology": "slippen(中世纪荷兰语：滑动、滑脱) = 脚底打滑或物品从手中脱落",
-    "synonyms": ["slide", "skid", "lapse", "mistake"],
-    "sentence_en": "Ice accumulation on pavement paths caused several pedestrians to slip and fall.",
-    "sentence_zh": "人行道上的积冰导致好几个行人滑倒摔跤。"
-  },
-  {
-    "word": "slogan",
-    "phonetic": "/ˈsloʊɡən/",
-    "homophonic": "斯洛根",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 口号，标语，广告语\n\n搭配：advertising slogan 广告标语，campaign slogan 竞选口号",
-    "etymology": "sluagh-ghairm(盖尔语：军队的呐喊、战吼) = 现代指凝聚团队精神或宣传营销的简练口号",
-    "synonyms": ["motto", "catchphrase", "tagline", "rallying cry"],
-    "sentence_en": "The innovative tech startup launched a memorable advertising slogan for its new smartphone.",
-    "sentence_zh": "这家创新的科技初创公司为其新款智能手机推出了一个令人难忘的广告标语。"
-  },
-  {
-    "word": "slope",
-    "phonetic": "/sloʊp/",
-    "homophonic": "斯洛普",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 斜坡，斜度，倾斜\n\n搭配：ski slope 滑雪坡，gentle slope 平缓的斜坡",
-    "etymology": "aslope(倾斜地，由sleep词根演变) = 地面或直线倾斜的角度",
-    "synonyms": ["incline", "gradient", "slant", "ramp"],
-    "sentence_en": "Ski enthusiasts gathered at the mountain resort to practice on the steep snowy slopes.",
-    "sentence_zh": "滑雪爱好者聚集在山地度假村，在陡峭的雪坡上练习。"
-  },
-  {
-    "word": "sloth",
-    "phonetic": "/sloʊθ/",
-    "homophonic": "斯洛斯",
-    "tags": ["TOEFL"],
-    "definition": "n. 怠惰，树懒（动物）\n\n搭配：three-toed sloth 三趾树懒",
-    "etymology": "slow(慢的) + -th(名词后缀) = 动作极其迟缓的懒散状态或动物名称",
-    "synonyms": ["laziness", "idleness", "inertia", "indolence"],
-    "sentence_en": "Tropical rainforest sloths spend the majority of their lives hanging motionlessly from tree branches.",
-    "sentence_zh": "热带雨林树懒生命中的大部分时间都在树枝上无声无息地挂着。"
-  },
-  {
-    "word": "slump",
-    "phonetic": "/slʌmp/",
-    "homophonic": "斯拉姆普",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 暴跌，骤降，塌陷，颓废\n\n搭配：economic slump 经济萧条，price slump 价格暴跌",
-    "etymology": "拟声词 = 指物体由于失去支撑而突然沉重下陷或市场行情暴跌",
-    "synonyms": ["plunge", "decline", "collapse", "downturn"],
-    "sentence_en": "Global property markets suffered a severe slump following sudden increases in interest rates.",
-    "sentence_zh": "在利率突然上升之后，全球房地产市场遭遇了严重的暴跌低迷。"
-  },
-  {
-    "word": "sly",
-    "phonetic": "/slaɪ/",
-    "homophonic": "斯莱",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 狡猾的，偷偷摸摸的，暗中诡秘的\n\n搭配：sly smile 狡黠的微笑，sly trick 诡计",
-    "etymology": "slain(古诺斯语：熟练的、精明的) = 引申为耍小聪明、狡诈隐蔽的",
-    "synonyms": ["cunning", "crafty", "wily", "sneaky"],
-    "sentence_en": "The mischievous child gave a sly grin before revealing the secret surprise.",
-    "sentence_zh": "这个淘气的孩子在揭晓秘密惊喜之前露出了狡黠的一笑。"
-  },
-  {
-    "word": "smash",
-    "phonetic": "/smæʃ/",
-    "homophonic": "斯马什",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. & n. 打碎，粉碎，轰动成功\n\n搭配：smash hit 轰动一时的作品，smash into 撞上",
-    "etymology": "拟声词 = 模仿猛烈撞击、击碎东西时发出的巨大声响",
-    "synonyms": ["shatter", "crush", "destroy", "break"],
-    "sentence_en": "The runaway truck lost control and managed to smash directly into the highway guardrail.",
-    "sentence_zh": "失控的卡车失去控制，径直撞上了高速公路护栏。"
-  },
-  {
-    "word": "smear",
-    "phonetic": "/smɪr/",
-    "homophonic": "斯米尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. & n. 涂抹，弄脏，污蔑，诽谤\n\n搭配：smear campaign 诽谤运动，smear test 宫颈抹片检查",
-    "etymology": "smeru(古英语：油脂、涂抹脂肪) = 把油腻污渍胡乱涂抹在表面或玷污名誉",
-    "synonyms": ["blur", "stain", "slander", "defamation"],
-    "sentence_en": "Political rivals engaged in a bitter smear campaign ahead of the upcoming election.",
-    "sentence_zh": "政治竞争对手在即将到来的选举前开展了激烈的诽谤污蔑运动。"
-  },
-  {
-    "word": "smug",
-    "phonetic": "/smʌɡ/",
-    "homophonic": "斯马格",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 自满的，自鸣得意的\n\n搭配：smug expression 得意洋洋的表情",
-    "etymology": "smuk(中世纪荷兰语：整洁的、考究的) = 后引申为因过于满足现状而显得自命不凡、沾沾自喜",
-    "synonyms": ["complacent", "self-satisfied", "conceited", "prig"],
-    "sentence_en": "His smug attitude after winning the competition annoyed many of his peers.",
-    "sentence_zh": "他在赢得比赛后那副自鸣得意的态度惹恼了许多同伴。"
-  },
-  {
-    "word": "smuggler",
-    "phonetic": "/ˈsmʌɡlər/",
-    "homophonic": "斯马格勒",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 走私者，走私犯\n\n搭配：drug smuggler 毒品走私犯",
-    "etymology": "smuggelen(中世纪荷兰语：偷偷摸摸地运送) = 秘密运送违禁品逃避关税检查的人",
-    "synonyms": ["trafficker", "bootlegger", "runner"],
-    "sentence_en": "Border patrol agents successfully intercepted a group of smugglers attempting to cross at night.",
-    "sentence_zh": "边境巡逻特工成功拦截了一伙企图在夜间偷渡的走私分子。"
-  },
-  {
-    "word": "snag",
-    "phonetic": "/snæɡ/",
-    "homophonic": "斯纳格",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 隐蔽的困难，障碍，勾破\n\n搭配：hit a snag 遇到阻碍，snag a deal 抢到优惠",
-    "etymology": "snaggr(古诺斯语：树桩、突出的树枝) = 隐藏在水面下或衣物上的尖锐树桩、隐患",
-    "synonyms": ["obstacle", "hitch", "snarl", "catch"],
-    "sentence_en": "The software migration project hit an unexpected technological snag during database synchronization.",
-    "sentence_zh": "软件迁移项目在数据库同步过程中遇到了意料之外的技术阻碍。"
-  },
-  {
-    "word": "snake",
-    "phonetic": "/sneɪk/",
-    "homophonic": "斯内克",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 蛇，蜿蜒行进\n\n搭配：snake river 蜿蜒的河流，venomous snake 毒蛇",
-    "etymology": "snaca(古英语：爬行的动物) = 身体细长无肢、在地上蜿蜒爬行的爬行动物",
-    "synonyms": ["serpent", "viper", "wind", "meander"],
-    "sentence_en": "The scenic mountain highway began to snake through deep pine forest valleys.",
-    "sentence_zh": "风景优美的山区公路开始蜿蜒穿过深邃的松林山谷。"
-  },
-  {
-    "word": "snap",
-    "phonetic": "/snæp/",
-    "homophonic": "斯纳普",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. & n. 猛咬，啪地折断，拍照，快照\n\n搭配：snap photos 拍照，snap decision 仓促的决定",
-    "etymology": "拟声词 = 模仿东西突然折断或快速闭合时发出的脆响",
-    "synonyms": ["break", "crack", "photograph", "capture"],
-    "sentence_en": "Tourists eagerly used their smartphones to snap pictures of the historic architecture.",
-    "sentence_zh": "游客们急切地用智能手机拍下这座历史建筑的照片。"
-  },
-  {
-    "word": "sneer",
-    "phonetic": "/snɪr/",
-    "homophonic": "斯尼尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. & n. 冷笑，讥讽，面露嘲弄\n\n搭配：sneer at 嘲笑，sneering remark 讥讽的话",
-    "etymology": "起源不详（可能与snort或smirk相关） = 嘴角上扬流露出轻蔑和嘲笑的表情",
-    "synonyms": ["mock", "scorn", "jeer", "ridicule"],
-    "sentence_en": "Arrogant critics tended to sneer at avant-garde artistic experiments.",
-    "sentence_zh": "傲慢的评论家往往会对前卫的艺术实验冷嘲热讽。"
-  },
-  {
-    "word": "sniff",
-    "phonetic": "/snɪf/",
-    "homophonic": "斯尼夫",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. & n. 嗅，闻，抽鼻子（因感冒或哭泣）\n\n搭配：sniff out 嗅出、侦测出",
-    "etymology": "拟声词 = 鼻子用力吸气时发出的声音",
-    "synonyms": ["smell", "inhale", "scent", "detect"],
-    "sentence_en": "Customs search dogs can easily sniff out hidden agricultural contraband in luggage.",
-    "sentence_zh": "海关搜查犬可以轻易地嗅出行李中隐藏的农业违禁品。"
-  },
-  {
-    "word": "snob",
-    "phonetic": "/snɑːb/",
-    "homophonic": "斯纳布",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 势利眼，自命不凡的人\n\n搭配：intellectual snob 知识优越感者，wine snob 红酒势利眼",
-    "etymology": "源自18世纪英国剑桥大学俚语（原指鞋匠学徒，后指非贵族出身但崇拜上流社会的人）",
-    "synonyms": ["elitist", "superior", "prig"],
-    "sentence_en": "He dismissed pop music as trivial, acting like a complete cultural snob.",
-    "sentence_zh": "他把流行音乐贬低为微不足道，表现得像个十足的文化势利眼。"
-  },
-  {
-    "word": "soak",
-    "phonetic": "/soʊk/",
-    "homophonic": "索克",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. & n. 浸泡，湿透，吸收\n\n搭配：soak up 吸收，soak in water 浸泡在水中",
-    "etymology": "socian(古英语：浸透、泡在液体中) = 物体在液体中充分吸收水分",
-    "synonyms": ["drench", "immerse", "saturate", "absorb"],
-    "sentence_en": "Chef recommended to soak dry beans overnight before cooking them into soup.",
-    "sentence_zh": "主厨建议在把干豆煮成汤之前先将其浸泡一夜。"
-  },
-  {
-    "word": "soar",
-    "phonetic": "/sɔːr/",
-    "homophonic": "索尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "v. 飙升，高飞，剧增\n\n搭配：prices soar 价格飙升，soar into the sky 冲上云霄",
-    "etymology": "exaurare(法语：升入高空，源自aura微风、空气) = 鸟儿借助气流高高飞翔或数值猛烈上升",
-    "synonyms": ["rocket", "surge", "climb", "escalate"],
-    "sentence_en": "Unprecedented energy demands caused electricity prices to soar during the summer heatwave.",
-    "sentence_zh": "空前高涨的能源需求导致电费在夏季热浪期间飙升。"
-  },
-  {
-    "word": "sober",
-    "phonetic": "/ˈsoʊbər/",
-    "homophonic": "索伯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 清醒的，未醉的，严肃的，朴素的\n\n搭配：sober reality 清醒的现实，stay sober 保持清醒",
-    "etymology": "sobrius(未喝醉的、冷静理智的)",
-    "synonyms": ["lucid", "clear-headed", "serious", "temperate"],
-    "sentence_en": "Financial auditors presented a sober assessment of the company's declining profitability.",
-    "sentence_zh": "财务审计师对公司不断下降的盈利能力提出了冷静清醒的评估。"
-  },
-  {
-    "word": "sociable",
-    "phonetic": "/ˈsoʊʃəbl/",
-    "homophonic": "索夏布尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 好交际的，合群的，友善的\n\n搭配：sociable person 社交达人，sociable atmosphere 友善的氛围",
-    "etymology": "socius(同伴、伙伴) + -able(形容词后缀) = 喜欢与他人结伴交往的",
-    "synonyms": ["friendly", "outgoing", "gregarious", "amiable"],
-    "sentence_en": "Golden retrievers are famously sociable dogs that easily befriend strangers.",
-    "sentence_zh": "金毛寻回犬是出了名的好交际的狗狗，很容易与陌生人成为朋友。"
-  },
-  {
-    "word": "sofa",
-    "phonetic": "/ˈsoʊfə/",
-    "homophonic": "索法",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 沙发，长椅\n\n搭配：leather sofa 皮革沙发，living room sofa 客厅沙发",
-    "etymology": "suffah(阿拉伯语：垫子、长椅台座) = 铺有软垫供人坐卧的长沙发",
-    "synonyms": ["couch", "settee", "divan", "lounge"],
-    "sentence_en": "After a long exhausting workday, he collapsed tiredly onto the living room sofa.",
-    "sentence_zh": "经过漫长而筋疲力尽的工作日后，他疲惫地瘫倒在客厅的沙发上。"
-  },
-  {
-    "word": "software",
-    "phonetic": "/ˈsɔːftwer/",
-    "homophonic": "索夫特维尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 软件，计算机程序\n\n搭配：software engineering 软件工程，software update 软件更新",
-    "etymology": "soft(软的、抽象的) + hardware(硬件) = 与实体硬件相对的无形程序代码指令集合",
-    "synonyms": ["program", "application", "code", "firmware"],
-    "sentence_en": "Modern software development relies heavily on automated continuous integration pipelines.",
-    "sentence_zh": "现代软件开发极大地依赖于自动化的持续集成流水线。"
-  },
-  {
-    "word": "solace",
-    "phonetic": "/ˈsɑːlɪs/",
-    "homophonic": "索利斯",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 安慰，慰藉\n\n搭配：find solace in 在……中寻求慰藉",
-    "etymology": "solari(安慰、抚慰，源自solamen慰藉) = 在痛苦或悲伤时得到的精神抚慰",
-    "synonyms": ["comfort", "consolation", "relief", "succor"],
-    "sentence_en": "She found immense solace in classical piano music during times of personal grief.",
-    "sentence_zh": "在个人悲伤的时期，她在古典钢琴音乐中找到了巨大的精神慰藉。"
-  },
-  {
-    "word": "solar",
-    "phonetic": "/ˈsoʊlər/",
-    "homophonic": "索勒",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 太阳的，日光的，太阳能的\n\n搭配：solar energy 太阳能，solar system 太阳系",
-    "etymology": "sol(太阳) + -ar(形容词后缀) = 与太阳相关或利用太阳光的",
-    "synonyms": ["heliacal", "sun-powered"],
-    "sentence_en": "Residential rooftops across the sunny region were covered with high-efficiency solar panels.",
-    "sentence_zh": "阳光充足地区的大多数住宅屋顶都铺设了高效太阳能电池板。"
-  },
-  {
-    "word": "solder",
-    "phonetic": "/ˈsɑːldər/",
-    "homophonic": "索德尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. & v. 焊料，焊锡；焊接\n\n搭配：solder wire 焊锡丝，solder joints 焊点",
-    "etymology": "solidare(使牢固、使结合，源自solid坚固的) = 通过熔化金属将电子元件牢固粘合的材料",
-    "synonyms": ["welding alloy", "fuse", "bond"],
-    "sentence_en": "Electronics technicians used a precision heating iron to melt solder onto the circuit board.",
-    "sentence_zh": "电子技术人员使用精密加热电烙铁将焊锡熔化到电路板上。"
-  },
-  {
-    "word": "sole",
-    "phonetic": "/soʊl/",
-    "homophonic": "索尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & n. 唯一的，独占的；鞋底，脚底\n\n搭配：sole proprietor 独资经营者，sole responsibility 唯一责任",
-    "etymology": "solus(单独的、单独一人的) = 独一无二、别无分店的",
-    "synonyms": ["single", "only", "exclusive", "unique"],
-    "sentence_en": "The chief executive officer bears the sole responsibility for corporate strategic planning.",
-    "sentence_zh": "首席执行官承担着公司战略规划的唯一责任。"
-  },
-  {
-    "word": "solemn",
-    "phonetic": "/ˈsɑːləm/",
-    "homophonic": "索兰",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 庄严的，严肃的，隆重的\n\n搭配：solemn vow 庄严的誓言，solemn ceremony 隆重的仪式",
-    "etymology": "sollemnis(盛大的、每年例行的、庄严的宗教节日)",
-    "synonyms": ["serious", "grave", "dignified", "earnest"],
-    "sentence_en": "National leaders gathered at the memorial to observe a solemn moment of silence.",
-    "sentence_zh": "国家领导人聚集在纪念碑前，举行庄严的默哀仪式。"
-  },
-  {
-    "word": "solicit",
-    "phonetic": "/səˈlɪsɪt/",
-    "homophonic": "索利西特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "v. 征求，恳求，拉客\n\n搭配：solicit feedback 征求反馈，solicit donations 募集捐款",
-    "etymology": "sollicitus(全神贯注的、焦虑的，源自solus整个 + ciere调动) = 竭尽全力去寻找或争取某物",
-    "synonyms": ["request", "seek", "ask for", "appeal"],
-    "sentence_en": "The research team distributed online questionnaires to solicit feedback from active app users.",
-    "sentence_zh": "研究团队分发了在线问卷，以征求活跃应用程序用户的反馈意见。"
-  },
-  {
-    "word": "solidarity",
-    "phonetic": "/ˌsɑːlɪˈdærəti/",
-    "homophonic": "索利达雷缇",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "n. 团结，一致，休戚与共\n\n搭配：express solidarity 表达声援，labor solidarity 工会团结",
-    "etymology": "solidus(坚固的、团结一致的) = 利益和信念紧密结合在一起的集体凝聚力",
-    "synonyms": ["unity", "accord", "harmony", "cohesion"],
-    "sentence_en": "Workers staged a massive peaceful strike in solidarity with union members facing layoffs.",
-    "sentence_zh": "工人们举行了大规模的和平罢工，以声援面临裁员的工会成员。"
-  },
-  {
-    "word": "solitary",
-    "phonetic": "/ˈsɑːlɪteri/",
-    "homophonic": "索利特里",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 独居的，单独的，人迹罕至的\n\n搭配：solitary confinement 禁闭，solitary figure 孤独的身影",
-    "etymology": "solus(单独的) + -itary(形容词后缀) = 独自一人、不与他人合群的",
-    "synonyms": ["alone", "isolated", "lonely", "reclusive"],
-    "sentence_en": "The lighthouse keeper led a solitary existence on the remote rocky island.",
-    "sentence_zh": "灯塔看守人在偏远的岩石小岛上过着离群索居的生活。"
-  },
-  {
-    "word": "soluble",
-    "phonetic": "/ˈsɑːljubl/",
-    "homophonic": "索柳布尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 可溶的，可解决的\n\n搭配：soluble in water 溶于水，soluble problem 可解决的问题",
-    "etymology": "solvere(溶解、解开) + -uble(可……的) = 能够在液体中溶解或在逻辑上被解决的",
-    "synonyms": ["dissolvable", "resolvable", "treatable"],
-    "sentence_en": "Vitamin C is a water-soluble nutrient that must be replenished daily through diet.",
-    "sentence_zh": "维生素C是一种水溶性营养素，必须每天通过饮食来补充。"
-  },
-  {
-    "word": "solvent",
-    "phonetic": "/ˈsɑːlvənt/",
-    "homophonic": "索尔文特",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. & n. 有偿付能力的，溶剂<br>搭配：financially solvent 财务状况良好的，organic solvent 有机溶剂",
-    "etymology": "solvens(溶解的、能偿还债务的，源自solvere解开) = 能够溶解其他物质或能够还清债务的",
-    "synonyms": ["financially secure", "liquid", "dissolver"],
-    "sentence_en": "Strict cost-control measures ensured the manufacturing startup remained financially solvent.",
-    "sentence_zh": "严格的成本控制措施确保了这家制造初创公司保持了良好的偿付能力。"
-  },
-  {
-    "word": "somber",
-    "phonetic": "/ˈsɑːmbər/",
-    "homophonic": "索姆伯",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 阴暗的，忧郁的，严峻的\n\n搭配：somber mood 忧郁的情绪，somber tone 严肃沉闷的基调",
-    "etymology": "sub(在……下面) + umbra(阴影) = 处在阴影之下的、缺乏明亮色彩或心情沉重的",
-    "synonyms": ["gloomy", "melancholy", "dark", "dull"],
-    "sentence_en": "Attendees wore dark clothing and maintained a somber demeanor during the memorial service.",
-    "sentence_zh": "出席者在追悼会期间穿着深色衣服，保持着凝重忧郁的神情。"
-  },
-  {
-    "word": "sonnet",
-    "phonetic": "/ˈsɑːnɪt/",
-    "homophonic": "索尼特",
-    "tags": ["TOEFL"],
-    "definition": "n. 十四行诗\n\n搭配：Shakespearean sonnet 莎士比亚十四行诗",
-    "etymology": "sonetto(意大利语：小歌、十四行短诗，源自suono声音) = 结构严谨、通常为十四行的抒情诗体",
-    "synonyms": ["poem", "verse", "rhyme"],
-    "sentence_en": "Elizabethan literature is renowned for exquisite romantic sonnets exploring themes of eternal love.",
-    "sentence_zh": "伊丽莎白时期的文学以探索永恒爱主题的精致浪漫十四行诗而闻名。"
-  },
-  {
-    "word": "sophisticated",
-    "phonetic": "/səˈfɪstɪkeɪtɪd/",
-    "homophonic": "索菲斯特凯提德",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 复杂的，老练的，精密的，久经世故的\n\n搭配：sophisticated technology 精密技术，sophisticated consumer 成熟老练的消费者",
-    "etymology": "sophisma(诡辩、假聪明)后演变为：经过深思熟虑、见多识广、技术极其复杂高级的",
-    "synonyms": ["advanced", "complex", "refined", "worldly"],
-    "sentence_en": "Modern cyber attacks often deploy sophisticated machine learning algorithms to evade detection.",
-    "sentence_zh": "现代网络攻击经常部署复杂的高级机器学习算法来逃避检测。"
-  },
-  {
-    "word": "soprano",
-    "phonetic": "/səˈprɑːnoʊ/",
-    "homophonic": "索普拉诺",
-    "tags": ["TOEFL"],
-    "definition": "n. 女高音，最高音部\n\n搭配：coloratura soprano 花腔女高音",
-    "etymology": "sopra(在……上方、超群，源自super) = 音域最高的女高音声部",
-    "synonyms": ["treble", "high singer"],
-    "sentence_en": "The opera performance featured a brilliant Italian soprano holding the high notes effortlessly.",
-    "sentence_zh": "歌剧演出由一位才华横溢的意大利女高音领衔，她轻松自如地唱出了高音。"
-  },
-  {
-    "word": "sore",
-    "phonetic": "/sɔːr/",
-    "homophonic": "索尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & n. 疼痛的，酸痛的，恼火的；疮，痛处\n\n搭配：sore muscles 酸痛的肌肉，sore throat 喉咙痛",
-    "etymology": "sar(古英语：疼痛的、痛苦的) = 身体某部位因发炎或过度劳累而产生触痛",
-    "synonyms": ["painful", "tender", "aching", "raw"],
-    "sentence_en": "After running a full marathon, his leg muscles felt extremely sore for several days.",
-    "sentence_zh": "在跑完整个马拉松后，他的腿部肌肉连续几天感到极其酸痛。"
-  },
-  {
-    "word": "sorrow",
-    "phonetic": "/ˈsɑːroʊ/",
-    "homophonic": "索罗",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 悲伤，悲痛，伤心事\n\n搭配：express sorrow 表达悲伤，to my sorrow 令我伤心的是",
-    "synonyms": ["grief", "sadness", "anguish", "woe"],
-    "sentence_en": "Friends and relatives gathered to offer words of comfort during a time of deep personal sorrow.",
-    "sentence_zh": "亲朋好友齐聚一堂，在个人深切悲痛的时刻献上安慰的话语。"
-  },
-  {
-    "word": "sound",
-    "phonetic": "/saʊnd/",
-    "homophonic": "萨恩德",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. & adj. 声音，声响；听起来；健全的，完好的，稳健的\n\n搭配：sound advice 稳健的建议，sound financial position 健全的财务状况",
-    "etymology": "sonus(声音)后引申为安全、健全、逻辑坚实可靠的",
-    "synonyms": ["audio", "noise", "healthy", "solid"],
-    "sentence_en": "Experienced investors base their portfolio decisions on sound fundamental financial analysis.",
-    "sentence_zh": "经验丰富的投资者将他们的投资组合决策建立在健全的基本面财务分析之上。"
-  },
-  {
-    "word": "sour",
-    "phonetic": "/ˈsaʊər/",
-    "homophonic": "萨维尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & v. 酸的，酸味的，变酸的，使恶化\n\n搭配：sour taste 酸味，relationships sour 关系恶化",
-    "etymology": "sur(古日耳曼语：发酵的、味道酸的) = 食物变质发酸或人际关系变坏",
-    "synonyms": ["acid", "tart", "bitter", "deteriorate"],
-    "sentence_en": "Unresolved commercial disputes caused business partnerships between the two firms to sour quickly.",
-    "sentence_zh": "未解决的商业纠纷导致两家公司之间的商业伙伴关系迅速恶化。"
-  },
-  {
-    "word": "source",
-    "phonetic": "/sɔːrs/",
-    "homophonic": "索斯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. 来源，根源，消息灵通人士\n\n搭配：source code 源代码，renewable source 可再生能源",
-    "etymology": "surgere(升起、涌出水源) = 河水喷涌而出的源头或信息出处",
-    "synonyms": ["origin", "root", "spring", "provenance"],
-    "sentence_en": "Open-source software developers share their source code freely for global community collaboration.",
-    "sentence_zh": "开源软件开发者免费共享他们的源代码，以供全球社区协作。"
-  },
-  {
-    "word": "sovereign",
-    "phonetic": "/ˈsɑːvrɪn/",
-    "homophonic": "索夫林",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. & n. 主权独立的，至高无上的；君主，元首\n\n搭配：sovereign state 主权国家，sovereign debt 主权债务",
-    "etymology": "super(在上方) + regnare(统治) = 拥有最高统治权或完全自主独立的国家地位",
-    "synonyms": ["independent", "autonomous", "supreme", "monarch"],
-    "sentence_en": "International law guarantees the political independence and territorial integrity of every sovereign nation.",
-    "sentence_zh": "国际法保障每个主权国家的政治独立和领土完整。"
-  },
-  {
-    "word": "spacious",
-    "phonetic": "/ˈspeɪʃəs/",
-    "homophonic": "斯佩舍斯",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. 宽敞的，广阔的，宽大的\n\n搭配：spacious room 宽敞的房间，spacious interior 宽敞的内部空间",
-    "etymology": "spatium(空间、旷野) + -ous(形容词后缀) = 内部空间巨大、视野广阔的",
-    "synonyms": ["roomy", "capacious", "vast", "expansive"],
-    "sentence_en": "The newly remodeled suburban residence features a spacious kitchen and an open-plan living area.",
-    "sentence_zh": "新装修的郊区住宅拥有宽敞的厨房和开放式起居区。"
-  },
-  {
-    "word": "span",
-    "phonetic": "/spæn/",
-    "homophonic": "斯潘",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 跨度，一段时间；跨越，横跨\n\n搭配": "life span 寿命，bridge span 桥梁跨度",
-    "etymology": "spann(古英语：手掌张开的长度尺寸) = 引申为空间跨度或时间跨度",
-    "synonyms": ["extent", "duration", "bridge", "cross"],
-    "sentence_en": "Modern suspension bridges can comfortably span broad rivers and deep mountain canyons.",
-    "sentence_zh": "现代悬索桥能够轻松横跨宽阔的河流和深邃的山峡。"
-  },
-  {
-    "word": "spare",
-    "phonetic": "/sper/",
-    "homophonic": "斯佩尔",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "adj. & v. 备用的，多余的；抽出，饶恕，节约\n\n搭配：spare tire 备胎，spare time 闲暇时间",
-    "etymology": "sparjan(古日耳曼语：节约、留出不用) = 保留备用或多余不用的物品",
-    "synonyms": ["extra", "alternative", "save", "exempt"],
-    "sentence_en": "Drivers should always check that their trunk contains a reliable spare tire and toolkit.",
-    "sentence_zh": "司机应随时检查后备箱中是否有可靠的备胎和工具箱。"
-  },
-  {
-    "word": "spark",
-    "phonetic": "/spɑːrk/",
-    "homophonic": "斯帕克",
-    "tags": ["CET4", "CET6", "TOEFL"],
-    "definition": "n. & v. 火花，闪光；引发，触发\n\n搭配：spark plug 火花塞，spark controversy 引发争议",
-    "etymology": "spearka(古英语：发光的微小火星) = 点燃火焰或激发灵感的微小火花",
-    "synonyms": ["flash", "trigger", "ignite", "stimulate"],
-    "sentence_en": "The groundbreaking scientific discovery managed to spark renewed interest in space exploration.",
-    "sentence_zh": "这一突破性的科学发现成功地激发了人们对太空探索的新一轮兴趣。"
-  },
-  {
-    "word": "sparse",
-    "phonetic": "/spɑːrs/",
-    "homophonic": "斯帕斯",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 稀疏的，稀少的，零星的\n\n搭配：sparse population 人口稀少，sparse vegetation 稀疏的植被",
-    "etymology": "sparsus(分散的、散开的，源自spergere撒开) = 分布疏落、数量不密集的",
-    "synonyms": ["scanty", "meager", "scattered", "thin"],
-    "sentence_en": "Desert wildlife adapts to survive amidst harsh climates and sparse water supplies.",
-    "sentence_zh": "沙漠野生动物适应在恶劣的气候和稀缺的水源中生存。"
-  },
-  {
-    "word": "spatial",
-    "phonetic": "/ˈspeɪʃl/",
-    "homophonic": "斯佩舍尔",
-    "tags": ["CET6", "TOEFL"],
-    "definition": "adj. 空间上的，存在于空间的\n\n搭配：spatial awareness 空间意识，spatial reasoning 空间推理能力",
-    "etymology": "spatium(空间) + -al(形容词后缀) = 涉及三维空间测绘或位置关系的",
-    "synonyms": ["dimensional", "geographical", "structural"],
-    "sentence_en": "Architects use 3D modeling software to visualize complex spatial arrangements before construction.",
-    "sentence_zh": "建筑师在施工前使用3D建模软件来直观展示复杂的空间布局。"
-  }
+{
+"word": "abandon",
+"phonetic": "/əˈbændən/",
+"homophonic": "额班得恩",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "v. 放弃，抛弃，遗弃
+
+
+搭配：abandon a plan/hope, abandon oneself to",
+"etymology": "a-(表加强或进入) + bandon(控制，管辖) = 置于管辖之外 = 放弃、抛弃",
+"synonyms": ["desert", "forsake", "relinquish", "discard"],
+"sentence_en": "The crew had to abandon the sinking ship as the fierce storm intensified.",
+"sentence_zh": "随着猛烈的风暴加剧，船员们不得不弃船逃生。"
+},
+{
+"word": "abase",
+"phonetic": "/əˈbeɪs/",
+"homophonic": "额贝斯",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 降低，使卑下，贬抑
+
+
+搭配：abase oneself, abase one's pride",
+"etymology": "a-(向，使) + base(低下的，基础的) = 使变得低下 = 降低，贬抑",
+"synonyms": ["debase", "humiliate", "degrade", "lower"],
+"sentence_en": "He refused to abase himself before the corrupt officials.",
+"sentence_zh": "他拒绝在腐败官员面前卑躬屈膝。"
+},
+{
+"word": "abash",
+"phonetic": "/əˈbæʃ/",
+"homophonic": "额拜许",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 使羞愧，使局促不安
+
+
+搭配：abash sb., look abashed",
+"etymology": "a-(加强语气) + bash(打击，击碎) = 精神受到打击而感到羞愧或局促不安",
+"synonyms": ["embarrass", "humiliate", "disconcert", "ashamed"],
+"sentence_en": "She was not at all abashed by the difficult questions asked by the professor.",
+"sentence_zh": "她丝毫没有被教授提出的刁钻问题弄得局促不安。"
+},
+{
+"word": "abate",
+"phonetic": "/əˈbeɪt/",
+"homophonic": "额贝特",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "v. 减轻，减弱，缓和
+
+
+搭配：abate the storm, the pain abates",
+"etymology": "a-(向下，减少) + bat(打，击) = 向下打压 = 减轻、减弱",
+"synonyms": ["subside", "decrease", "diminish", "mitigate"],
+"sentence_en": "We waited for the storm to abate before continuing our mountain hike.",
+"sentence_zh": "我们等暴风雨减弱后才继续进行我们的山地徒步。"
+},
+{
+"word": "abdicate",
+"phonetic": "/ˈæbdɪkeɪt/",
+"homophonic": "阿布迪凯特",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 退位，放弃（权力、责任等）
+
+
+搭配：abdicate the throne, abdicate responsibility",
+"etymology": "ab-(离开，脱离) + dic(宣布，命令) + -ate(动词后缀) = 宣告脱离职位 = 退位、放弃",
+"synonyms": ["resign", "step down", "relinquish", "surrender"],
+"sentence_en": "The king was forced to abdicate the throne after the political revolution.",
+"sentence_zh": "在政治革命之后，国王被迫宣布退位。"
+},
+{
+"word": "abdomen",
+"phonetic": "/ˈæbdəmən/",
+"homophonic": "阿布德门",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "n. 腹部，下腹
+
+
+搭配：lower abdomen, abdominal pain",
+"etymology": "abdomen(拉丁语，指人体腹部)",
+"synonyms": ["belly", "stomach", "paunch"],
+"sentence_en": "The patient experienced sharp pain in the lower abdomen.",
+"sentence_zh": "病人感到下腹部剧烈疼痛。"
+},
+{
+"word": "abduct",
+"phonetic": "/æbˈdʌkt/",
+"homophonic": "阿布达克特",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 绑架，拐走，诱拐
+
+
+搭配：abduct a child, be abducted by terrorists",
+"etymology": "ab-(离开，离去) + duct(引导，拉) = 拉开，带走 = 绑架、拐走",
+"synonyms": ["kidnap", "capture", "seize", "carry off"],
+"sentence_en": "The wealthy businessman was abducted on his way home from work.",
+"sentence_zh": "这位富商在下班回家的路上遭到绑架。"
+},
+{
+"word": "aberrant",
+"phonetic": "/əˈberənt/",
+"homophonic": "额贝兰特",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 越轨的，异常的，畸变的
+
+
+搭配：aberrant behavior, aberrant chromosomes",
+"etymology": "ab-(离开，偏离) + err(犯错，游荡) + -ant(形容词后缀) = 偏离正轨的 = 异常的、变态的",
+"synonyms": ["abnormal", "deviant", "unusual", "irregular"],
+"sentence_en": "Scientists noticed aberrant patterns in the climate data that required careful analysis.",
+"sentence_zh": "科学家们注意到气候数据中存在需要仔细分析的异常模式。"
+},
+{
+"word": "abet",
+"phonetic": "/əˈbet/",
+"homophonic": "额贝特",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 教唆，唆使，协助（犯罪）
+
+
+搭配：abet a crime, aid and abet",
+"etymology": "a-(表加强) + bet(古英语词根，意为刺激、煽动，源自日耳曼语族)",
+"synonyms": ["encourage", "assist", "instigate", "aid"],
+"sentence_en": "He was arrested for helping to plan and abet the bank robbery.",
+"sentence_zh": "他因涉嫌策划和教唆银行抢劫案而被捕。"
+},
+{
+"word": "abhor",
+"phonetic": "/əbˈhɔːr/",
+"homophonic": "阿布霍尔",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 痛恨，厌恶，憎恶
+
+
+搭配：abhor violence, abhor cruelty",
+"etymology": "ab-(离开，远离) + horr(颤抖，恐惧，源自horrere) = 吓得倒退、极其厌恶",
+"synonyms": ["detest", "hate", "loathe", "abominate"],
+"sentence_en": "True scientists abhor dishonesty and manipulation of experimental results.",
+"sentence_zh": "真正的科学家痛恨不诚实以及对实验结果的操纵。"
+},
+{
+"word": "abide",
+"phonetic": "/əˈbaɪd/",
+"homophonic": "额拜德",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "v. 遵守，坚持；忍受，容忍
+
+
+搭配：abide by the rules, cannot abide sb.",
+"etymology": "a-(表加强) + bide(停留，居住) = 留下来等待或承担 = 遵守、忍受",
+"synonyms": ["comply", "observe", "endure", "tolerate"],
+"sentence_en": "All members of the committee must abide by the agreed regulations.",
+"sentence_zh": "委员会的所有成员都必须遵守商定的规章制度。"
+},
+{
+"word": "abject",
+"phonetic": "/ˈæbdʒekt/",
+"homophonic": "阿布杰克特",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 可怜的，悲惨的；卑劣的，绝望的
+
+
+搭配：abject poverty, abject apology",
+"etymology": "ab-(向下) + ject(投掷，扔) = 被向下扔出去的 = 卑微的、凄惨的",
+"synonyms": ["miserable", "wretched", "despicable", "servile"],
+"sentence_en": "Millions of people around the world still live in conditions of abject poverty.",
+"sentence_zh": "世界上仍有数百万人生活在极端贫困的境地中。"
+},
+{
+"word": "abjure",
+"phonetic": "/æbˈdʒʊr/",
+"homophonic": "阿布吉尔",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 发誓放弃，公开放弃（信仰、权利等）
+
+
+搭配：abjure a belief, abjure allegiance",
+"etymology": "ab-(离开) + jur(发誓，法律) = 发誓断绝关系 = 公开放弃",
+"synonyms": ["renounce", "forsake", "reject", "repudiate"],
+"sentence_en": "To gain citizenship, the applicant had to formally abjure loyalty to his former country.",
+"sentence_zh": "为了获得公民身份，申请人必须正式宣誓放弃对原先国家的效忠。"
+},
+{
+"word": "ablative",
+"phonetic": "/ˈæblətɪv/",
+"homophonic": "阿布拉蒂夫",
+"tags": ["TOEFL"],
+"definition": "adj. / n. （语法）夺格的，表剥离或方所的格
+
+
+搭配：ablative case, ablative absolute",
+"etymology": "ab-(分离，取走) + lat(带走，携带) + -ive(形容词后缀) = 带有移走、分离含义的语法格",
+"synonyms": ["detaching", "removals"],
+"sentence_en": "In Latin grammar, the ablative case is used to indicate separation or source.",
+"sentence_zh": "在拉丁语语法中，夺格用来表示分离或来源。"
+},
+{
+"word": "ablaze",
+"phonetic": "/əˈbleɪz/",
+"homophonic": "额布雷斯",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 着火的，燃烧的；闪耀的，激昂的
+
+
+搭配：set ablaze, ablaze with lights",
+"etymology": "a-(处于...状态) + blaze(火焰，闪光) = 处于烈火或闪耀状态中",
+"synonyms": ["burning", "flaming", "glowing", "radiant"],
+"sentence_en": "The historic downtown building was set ablaze by the massive explosion.",
+"sentence_zh": "这座历史悠久 市中心建筑被巨大的爆炸化为一片火海。"
+},
+{
+"word": "able-bodied",
+"phonetic": "/ˌeɪbl ˈbɒdid/",
+"homophonic": "艾柏尔-博迪德",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 体魄强健的，健康的，健全的
+
+
+搭配：able-bodied workers, able-bodied adults",
+"etymology": "able(有能力的) + bodied(有身体的) = 身体强健、有劳动能力的",
+"synonyms": ["robust", "healthy", "strong", "sturdy"],
+"sentence_en": "The project requires dozens of able-bodied workers to lift heavy construction materials.",
+"sentence_zh": "该项目需要几十名身强力壮的工人来搬运沉重的建筑材料。"
+},
+{
+"word": "ablution",
+"phonetic": "/əˈbluːʃn/",
+"homophonic": "额布鲁申",
+"tags": ["TOEFL"],
+"definition": "n. 洗澡，净手，洗礼仪式
+
+
+搭配：perform ablutions, morning ablutions",
+"etymology": "ab-(洗去，离开) + lut(冲洗，洗涤，源自luere) + -ion(名词后缀) = 洗净污秽",
+"synonyms": ["purification", "washing", "cleansing", "bath"],
+"sentence_en": "The monks gathered by the river to perform their daily ritual ablutions.",
+"sentence_zh": "僧侣们聚集在河边进行每日的常规净手和沐浴仪式。"
+},
+{
+"word": "abnegate",
+"phonetic": "/ˈæbnɪɡeɪt/",
+"homophonic": "阿布尼盖特",
+"tags": ["TOEFL"],
+"definition": "v. 放弃，克制，拒绝（权利、欲望等）
+
+
+搭配：abnegate pleasure, abnegate self-interest",
+"etymology": "ab-(否定，离开) + neg(否定，拒绝，源自negare) + -ate(动词后缀) = 彻底拒绝或放弃",
+"synonyms": ["renounce", "surrender", "relinquish", "deny"],
+"sentence_en": "Monks often abnegate worldly pleasures in search of spiritual enlightenment.",
+"sentence_zh": "僧侣们为了寻求精神觉悟，常常克制世俗的欢愉。"
+},
+{
+"word": "abnormal",
+"phonetic": "/æbˈnɔːrml/",
+"homophonic": "阿布诺莫",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "adj. 反常的，不规则的，异常的
+
+
+搭配：abnormal behavior, abnormal weather conditions",
+"etymology": "ab-(偏离，远离) + normal(正常的) = 偏离正常标准的 = 异常的",
+"synonyms": ["unusual", "irregular", "deviant", "atypical"],
+"sentence_en": "Meteorologists recorded abnormal rainfall amounts across the region this summer.",
+"sentence_zh": "气象学家记录到今年夏天该地区的降雨量异常。"
+},
+{
+"word": "abode",
+"phonetic": "/əˈboʊd/",
+"homophonic": "额博德",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. 住所，住宅，寓所
+
+
+搭配：permanent abode, humble abode",
+"etymology": "a-(表状态) + bode(bide的过去式，居住、逗留) = 居住的地方",
+"synonyms": ["residence", "dwelling", "home", "habitation"],
+"sentence_en": "After years of traveling, the artist finally settled down in a cozy woodland abode.",
+"sentence_zh": "经过多年的游历，这位艺术家最终定居在林间一处舒适的住宅里。"
+},
+{
+"word": "abolish",
+"phonetic": "/əˈbɒlɪʃ/",
+"homophonic": "额博利许",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "v. 废除，废止（法律、制度、习俗等）
+
+
+搭配：abolish slavery, abolish a law",
+"etymology": "ab-(离开) + ol(生长，源自olescere) + -ish(动词后缀) = 使不再生长，使其消亡 = 废除",
+"synonyms": ["terminate", "eliminate", "eradicate", "repeal"],
+"sentence_en": "The international community pushed for governments to abolish outdated trade tariffs.",
+"sentence_zh": "国际社会敦促各国政府废除过时的贸易关税。"
+},
+{
+"word": "abolition",
+"phonetic": "/ˌæbəˈlɪʃn/",
+"homophonic": "阿布利申",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. 废除，废止
+
+
+搭配：the abolition of slavery, abolition movement",
+"etymology": "abolish(废除) + -ion(名词后缀) = 废除，废止",
+"synonyms": ["eradication", "repeal", "cancellation", "elimination"],
+"sentence_en": "The 19th century witnessed a powerful movement dedicated to the abolition of slavery.",
+"sentence_zh": "19世纪见证了一场致力于废除奴隶制的强大运动。"
+},
+{
+"word": "abominable",
+"phonetic": "/əˈbɒmɪnəbl/",
+"homophonic": "额博米纳布",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 可恶的，讨厌的，极坏的
+
+
+搭配：abominable weather, abominable crime",
+"etymology": "ab-(加强) + omin(凶兆，不祥，源自omen) + -able(可……的) = 像凶兆般让人厌恶的 = 可恶的",
+"synonyms": ["detestable", "horrible", "atrocious", "abhorrent"],
+"sentence_en": "The prisoners were subjected to abominable conditions during their captivity.",
+"sentence_zh": "囚犯在被关押期间遭受了极其恶劣的待遇。"
+},
+{
+"word": "abominate",
+"phonetic": "/əˈbɒmɪneɪt/",
+"homophonic": "额博米内特",
+"tags": ["TOEFL"],
+"definition": "v. 痛恨，厌恶
+
+
+搭配：abominate cruelty, abominate lying",
+"etymology": "ab- + omin(不祥之兆) + -ate(动词后缀) = 视同不祥而极度痛恨",
+"synonyms": ["detest", "loathe", "abhor", "despise"],
+"sentence_en": "She confessed that she did abominate any form of deceit in scientific research.",
+"sentence_zh": "她坦言自己极其痛恨科学研究中的任何欺骗行为。"
+},
+{
+"word": "aboriginal",
+"phonetic": "/ˌæbəˈrɪdʒənl/",
+"homophonic": "阿布里吉诺",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. / n. 土著的，原住民的
+
+
+搭配：aboriginal tribes, aboriginal culture",
+"etymology": "ab-(从……起) + origine(起源，源头) + -al(形容词后缀) = 自古以来就在该源头生存的 = 土著的",
+"synonyms": ["indigenous", "native", "original", "autochthonous"],
+"sentence_en": "The museum displays artifacts that reflect the long history of aboriginal Australians.",
+"sentence_zh": "博物馆陈列着反映澳大利亚土著悠久历史的文物。"
+},
+{
+"word": "abort",
+"phonetic": "/əˈbɔːrt/",
+"homophonic": "额鲍特",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 夭折，中途失败；流产，堕胎
+
+
+搭配：abort a mission, abort a pregnancy",
+"etymology": "ab-(离去，偏离) + ort(出生，源自oriri) = 未能正常出生 = 中途流产或中止",
+"synonyms": ["terminate", "cancel", "halt", "fail"],
+"sentence_en": "The pilot had to abort the takeoff due to a sudden engine warning.",
+"sentence_zh": "由于突然的发动机警报，飞行员不得不中止起飞。"
+},
+{
+"word": "abortion",
+"phonetic": "/əˈbɔːrʃn/",
+"homophonic": "额鲍申",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. 人工流产，堕胎；（计划等的）夭折
+
+
+搭配：have an abortion, debate on abortion",
+"etymology": "abort(流产) + -ion(名词后缀) = 流产，堕胎",
+"synonyms": ["termination", "miscarriage"],
+"sentence_en": "The legal and ethical debate surrounding abortion remains deeply divisive worldwide.",
+"sentence_zh": "围绕堕胎的法律和伦理争论在全球范围内依然存在巨大分歧。"
+},
+{
+"word": "abortive",
+"phonetic": "/əˈbɔːrtɪv/",
+"homophonic": "额鲍提夫",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 徒劳的，失败的，夭折的
+
+
+搭配：abortive attempt, abortive negotiations",
+"etymology": "abort(流产，夭折) + -ive(形容词后缀) = 像流产一样未见成效的 = 徒劳的",
+"synonyms": ["unsuccessful", "futile", "vain", "fruitless"],
+"sentence_en": "After several abortive attempts to cross the river, the expedition team changed route.",
+"sentence_zh": "在数次试图渡河无果后，考察队改变了路线。"
+},
+{
+"word": "abound",
+"phonetic": "/əˈbaʊnd/",
+"homophonic": "额鲍恩德",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "v. 富于，充满；大量存在
+
+
+搭配：opportunities abound, abound in/with",
+"etymology": "a-(表状态) + bound(波浪，源自undare，满溢如波涛) = 泛滥、充满",
+"synonyms": ["teem", "flourish", "swarm", "overflow"],
+"sentence_en": "Wildlife and rare plants abound in the remote national park.",
+"sentence_zh": "在这个偏远的国家公园里，野生动物和珍稀植物资源极其丰富。"
+},
+{
+"word": "about-face",
+"phonetic": "/əˌbaʊt ˈfeɪs/",
+"homophonic": "额鲍特-费斯",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. / v. （立场、政策等的）彻底改变，向后转
+
+
+搭配：make an about-face, sudden about-face",
+"etymology": "about(关于，转圈) + face(脸，正面) = 脸朝向相反方向转 = 彻底转变",
+"synonyms": ["turnabout", "volte-face", "reversal", "switch"],
+"sentence_en": "The company made a sudden about-face regarding its remote work policy.",
+"sentence_zh": "该公司对远程办公政策来了一个180度的大转弯。"
+},
+{
+"word": "aboveboard",
+"phonetic": "/əˌbʌvˈbɔːrd/",
+"homophonic": "额巴夫波德",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. / adv. 光明正大的，坦诚的，无欺诈的
+
+
+搭配：keep things aboveboard, completely aboveboard",
+"etymology": "above(在……上方) + board(牌桌，甲板) = 手牌放在桌面上让人看见，不搞阴谋诡计 = 光明正大的",
+"synonyms": ["honest", "fair", "straightforward", "open"],
+"sentence_en": "The auditor confirmed that all financial transactions of the startup were entirely aboveboard.",
+"sentence_zh": "审计师确认该初创公司的所有金融交易都完全公开透明、合法合规。"
+},
+{
+"word": "abrasion",
+"phonetic": "/əˈbreɪʒn/",
+"homophonic": "额贝日恩",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. 磨损，擦伤，表面磨损
+
+
+搭配：skin abrasion, resistance to abrasion",
+"etymology": "ab-(离开，磨掉) + ras(刮，擦，源自radere) + -ion(名词后缀) = 刮擦磨损",
+"synonyms": ["scrape", "graze", "wear", "friction"],
+"sentence_en": "The cyclist suffered minor abrasions after falling off his bike on the gravel road.",
+"sentence_zh": "骑行者在砂石路上摔下自行车后，身体有多处轻微擦伤。"
+},
+{
+"word": "abrasive",
+"phonetic": "/əˈbreɪsɪv/",
+"homophonic": "额贝斯夫",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. 粗鲁的，伤感情的；研磨的，摩擦的
+
+
+搭配：abrasive personality, abrasive cleaner",
+"etymology": "abras(擦伤，磨损) + -ive(形容词后缀) = 具有磨损性的，性格刻薄刺人的",
+"synonyms": ["harsh", "grating", "rough", "caustic"],
+"sentence_en": "Despite his abrasive manner, he was recognized as a brilliant scientist.",
+"sentence_zh": "尽管他为人态度生硬、言语刻薄，但人们公认他是一位杰出的科学家。"
+},
+{
+"word": "abreast",
+"phonetic": "/əˈbrest/",
+"homophonic": "额布雷斯特",
+"tags": ["CET6", "TOEFL"],
+"definition": "adv. 并肩地，并排地；紧跟（时代、潮流）
+
+
+搭配：keep abreast of, walk abreast",
+"etymology": "a-(处于) + breast(胸部，胸膛) = 胸膛贴着胸膛并排 = 并肩地",
+"synonyms": ["alongside", "side by side", "up to date"],
+"sentence_en": "Read professional journals regularly to keep abreast of the latest technological breakthroughs.",
+"sentence_zh": "定期阅读专业期刊，以紧跟最新的技术突破。"
+},
+{
+"word": "abridge",
+"phonetic": "/əˈbrɪdʒ/",
+"homophonic": "额布里奇",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 删节，节略，缩短（书籍、文章等）
+
+
+搭配：abridge a book, abridge freedom",
+"etymology": "a-(表加强) + bridge(源自breviare，变短，与short同源) = 使缩短、精简",
+"synonyms": ["shorten", "abbreviate", "condense", "compress"],
+"sentence_en": "The publisher decided to abridge the massive novel so younger readers could enjoy it.",
+"sentence_zh": "出版商决定对这部宏大的长篇小说进行删节，以便年轻读者能够阅读。"
+},
+{
+"word": "abrogate",
+"phonetic": "/ˈæbrəɡeɪt/",
+"homophonic": "阿布罗盖特",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 正式废除，撤销（法律、协议、习惯）
+
+
+搭配：abrogate a treaty, abrogate a law",
+"etymology": "ab-(离开) + rog(要求，提议，源自rogare) + -ate(动词后缀) = 取消原先提出的法令 = 废除",
+"synonyms": ["repeal", "revoke", "nullify", "cancel"],
+"sentence_en": "The two nations met to abrogate the outdated trade treaty signed decades ago.",
+"sentence_zh": "两国会晤以废除几十年前签署的过时贸易条约。"
+},
+{
+"word": "abrupt",
+"phonetic": "/əˈbrʌpt/",
+"homophonic": "额布拉普特",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "adj. 突然的，意外的；唐突的，生硬的
+
+
+搭配：abrupt change, abrupt ending",
+"etymology": "ab-(离开，剥离) + rupt(断裂，破裂) = 突然断开的 = 突然的、生硬的",
+"synonyms": ["sudden", "unexpected", "hasty", "blunt"],
+"sentence_en": "The lecture came to an abrupt stop when the campus power grid failed.",
+"sentence_zh": "当校园电网故障时，讲座戛然而止。"
+},
+{
+"word": "abscess",
+"phonetic": "/ˈæbses/",
+"homophonic": "阿布赛斯",
+"tags": ["TOEFL"],
+"definition": "n. 脓肿，疮疡
+
+
+搭配：dental abscess, form an abscess",
+"etymology": "ab-(离开，分离) + scedere/cess(离去，积聚) = 体内组织溃烂积脓的地方",
+"synonyms": ["ulcer", "boil", "sore", "pustule"],
+"sentence_en": "The dentist had to treat the painful tooth abscess before performing root canal surgery.",
+"sentence_zh": "牙医在做根管治疗之前，必须先治疗疼痛的牙脓肿。"
+},
+{
+"word": "abscissa",
+"phonetic": "/æbˈsɪsə/",
+"homophonic": "阿布西萨",
+"tags": ["TOEFL"],
+"definition": "n. （数学）横坐标
+
+
+搭配：x-axis abscissa, coordinate grid",
+"etymology": "ab-(离开) + sciss(切割，剪开，源自scindere) + -a(名词后缀) = 被坐标轴切割出的水平截段 = 横坐标",
+"synonyms": ["x-coordinate", "horizontal axis coordinate"],
+"sentence_en": "On the scatter plot, the horizontal axis represents the abscissa while the vertical axis represents the ordinate.",
+"sentence_zh": "在散点图上，水平轴代表横坐标，垂直轴代表纵坐标。"
+},
+{
+"word": "abscond",
+"phonetic": "/æbˈskɒnd/",
+"homophonic": "阿布斯康德",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 潜逃，逃跑，畏罪潜逃
+
+
+搭配：abscond with money, abscond from custody",
+"etymology": "ab-(离开) + scond(藏匿，隐藏，源自condere) = 藏起来并悄悄溜走 = 潜逃",
+"synonyms": ["escape", "flee", "run away", "bolt"],
+"sentence_en": "The dishonest accountant managed to abscond with millions of dollars of company funds.",
+"sentence_zh": "那个不诚实的会计设法携款数百万美元公司资金潜逃。"
+},
+{
+"word": "absence",
+"phonetic": "/ˈæbsəns/",
+"homophonic": "阿布森斯",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "n. 缺席，不在；缺乏，缺少
+
+
+搭配：in the absence of, leave of absence",
+"etymology": "ab-(离开) + sent(存在，源自esse) + -ence(名词后缀) = 离去了、不存在 = 缺席、缺乏",
+"synonyms": ["nonattendance", "lack", "want", "deficiency"],
+"sentence_en": "In the absence of concrete evidence, the jury could not convict the suspect.",
+"sentence_zh": "在缺乏确凿证据的情况下，陪审团无法给嫌疑人定罪。"
+},
+{
+"word": "absent",
+"phonetic": "/ˈæbsənt/",
+"homophonic": "阿布森特",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "adj. 缺席的，不在的；心不在焉的
+
+
+搭配：absent from class, absent-minded",
+"etymology": "ab-(离开) + sent(存在的) = 不在现场的 = 缺席的",
+"synonyms": ["missing", "away", "nonexistent", "distracted"],
+"sentence_en": "Several students were absent from the lecture due to a sudden flu outbreak.",
+"sentence_zh": "由于突然爆发流感，有几名学生缺席了讲座。"
+},
+{
+"word": "absolute",
+"phonetic": "/ˈæbsəluːt/",
+"homophonic": "阿布索鲁特",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "adj. 绝对的，完全的；无限制的
+
+
+搭配：absolute truth, absolute power",
+"etymology": "ab-(完全) + solv/solut(解开，松开) = 从约束中完全解脱出来的 = 绝对的、无限制的",
+"synonyms": ["complete", "utter", "unconditional", "pure"],
+"sentence_en": "The research findings offer absolute proof that the hypothesis was correct.",
+"sentence_zh": "研究结果提供了绝对的证据，证明该假设是正确的。"
+},
+{
+"word": "absolution",
+"phonetic": "/ˌæbsəˈluːʃn/",
+"homophonic": "阿布索鲁申",
+"tags": ["TOEFL"],
+"definition": "n. 免罪，赦免，宽恕
+
+
+搭配：seek absolution, grant absolution",
+"etymology": "absolute(解除约束) + -ion(名词后缀) = 解除惩罚与罪责 = 赦免",
+"synonyms": ["forgiveness", "pardon", "acquittal", "remission"],
+"sentence_en": "He went to the old priest hoping to find spiritual absolution for his past mistakes.",
+"sentence_zh": "他去找那位老神父，希望能为自己过去的错误找到精神上的宽恕。"
+},
+{
+"word": "absolve",
+"phonetic": "/əbˈzɒlv/",
+"homophonic": "阿布索尔夫",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 免除，宣告无罪，赦免
+
+
+搭配：absolve sb. from blame, absolve of guilt",
+"etymology": "ab-(离开，脱离) + solve(解开，松开) = 解开罪责并使其离开 = 宣告无罪、免除责任",
+"synonyms": ["exonerate", "acquit", "pardon", "discharge"],
+"sentence_en": "The independent inquiry report served to absolve the director of any direct wrongdoing.",
+"sentence_zh": "独立调查报告起到了为该主任洗脱直接不当行为责任的作用。"
+},
+{
+"word": "absorb",
+"phonetic": "/əbˈsɔːrb/",
+"homophonic": "阿布索布",
+"tags": ["CET4", "CET6", "TOEFL"],
+"definition": "v. 吸收（液体、光、热等）；吸引全部注意力，理解
+
+
+搭配：absorb knowledge, absorb shock",
+"etymology": "ab-(向内，向下) + sorb(吞咽，喝，源自sorbere) = 吞入、吸纳",
+"synonyms": ["assimilation", "take in", "engross", "consume"],
+"sentence_en": "Plants absorb carbon dioxide from the atmosphere during the process of photosynthesis.",
+"sentence_zh": "植物在光合作用过程中吸收大气中的二氧化碳。"
+},
+{
+"word": "absorbent",
+"phonetic": "/əbˈsɔːrbənt/",
+"homophonic": "阿布索尔本特",
+"tags": ["CET6", "TOEFL"],
+"definition": "adj. / n. 能吸收的；吸水材料
+
+
+搭配：absorbent material, absorbent cotton",
+"etymology": "absorb(吸收) + -ent(形容词后缀，表具备特性的) = 具吸收能力的",
+"synonyms": ["porous", "spongy", "permeable"],
+"sentence_en": "The laboratory technician used highly absorbent paper towels to clean up the spilled chemical.",
+"sentence_zh": "实验室技术员用吸水性极强的纸巾清理了泼洒的化学试剂。"
+},
+{
+"word": "absorption",
+"phonetic": "/əbˈsɔːrpʃn/",
+"homophonic": "阿布索普申",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. 吸收；专心，全神贯注
+
+
+搭配：absorption of nutrients, total absorption",
+"etymology": "absorb的变形名词形式 = 吸收过程或全神贯注的状态",
+"synonyms": ["assimilation", "intake", "engagement", "immersion"],
+"sentence_en": "The efficient absorption of vitamins depends heavily on a balanced daily diet.",
+"sentence_zh": "维生素的高效吸收很大程度上取决于均衡的日常饮食。"
+},
+{
+"word": "abstain",
+"phonetic": "/əbˈsteɪn/",
+"homophonic": "阿布斯坦",
+"tags": ["CET6", "TOEFL"],
+"definition": "v. 戒除，禁绝；（投票时）弃权
+
+
+搭配：abstain from voting, abstain from alcohol",
+"etymology": "ab-(离开) + tain(握住，持有，源自tenere) = 保持距离不去触碰 = 戒除、弃权",
+"synonyms": ["refrain", "desist", "forbear", "avoid"],
+"sentence_en": "Several member states chose to abstain from voting on the controversial resolution.",
+"sentence_zh": "几个成员国选择对这项有争议的决议投弃权票。"
+},
+{
+"word": "abstemious",
+"phonetic": "/æbˈstiːmiəs/",
+"homophonic": "阿布斯蒂米厄斯",
+"tags": ["TOEFL"],
+"definition": "adj. 有节制的，饮食有度的，简朴的
+
+
+搭配：abstemious lifestyle, abstemious diet",
+"etymology": "ab-(离开) + temetum(含酒精的饮料) + -ous(形容词后缀) = 远离烈酒、克制饮食的 = 有节制的",
+"synonyms": ["temperate", "moderate", "austere", "abstinent"],
+"sentence_en": "Despite attending lavish banquets, the philosopher maintained an exceptionally abstemious diet.",
+"sentence_zh": "尽管出席了盛大的宴会，这位哲学家依然保持着极其有节制的饮食习惯。"
+},
+{
+"word": "abstinence",
+"phonetic": "/ˈæbstɪnəns/",
+"homophonic": "阿布斯蒂嫩斯",
+"tags": ["CET6", "TOEFL"],
+"definition": "n. 节制，禁欲，戒绝
+
+
+搭配：total abstinence, practice abstinence",
+"etymology": "abstain(戒除)的名词形式 = 克制、戒绝",
+"synonyms": ["sobriety", "forbearance", "self-restraint"],
+"sentence_en": "Medical professionals often recommend complete abstinence from smoking to lower health risks.",
+"sentence_zh": "医学专家通常建议彻底戒烟以降低健康风险。"
+}
 ]
